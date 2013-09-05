@@ -1,0 +1,989 @@
+@import "mixins.less";
+@import "variables.less";
+
+@root-img-path: "http://school.echalk.com/www/school/site/hosting/jeremytest/img/";
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   		/*margin: 0;
+   	padding: 0;
+   	border: 0;
+   font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   	-webkit-font-smoothing: antialiased;*/
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   	/*-webkit-font-smoothing: antialiased;*/
+   }
+   /*body {
+   	-webkit-font-smoothing: antialiased;
+   	-webkit-text-size-adjust: 100%;
+   }*/
+   ol, ul {
+   	/*list-style: none;*/
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+   /* additional resets */
+   * {
+   	.box-sizing(border-box);
+   }
+   /*content area make posittion relative by default for positioning purposes */
+   .cc-area, .wrapper, .content, .mainContent, .custom-layout {
+   	position:relative;
+   }
+
+
+
+
+/* GLOBAL STYLES 
+
+==================
+
+login -lg
+base form elements -bf
+button styles -bs
+main navigation -mn
+horizontal navigation -hn
+utility nav -un
+prompt style -ps
+upcoming events -ue
+
+
+** SUBPAGE STYLES **
+general subpage style -gsb
+breadcrumbs -bc
+PROFILE PAGES -pro
+calendar -cal
+directories / listing - dir
+
+weather -we
+layout manager -lm
+
+================== */
+
+
+/* remove old stylesheet */
+link[href*="css.axd"] {
+	display:none;
+}
+
+body {
+	font-size:16px;
+	line-height:1.5em;
+	h1 {
+		font-size:1.618em;
+		font-weight:500;
+	}
+	a {
+		cursor:pointer;
+		&:hover {
+			.transition(all 200ms ease-in-out);
+		}
+	}
+	hr {
+		display:none;
+	}
+	strong {
+		font-weight: bold;
+	}
+}
+.homepage .wrapper, .wrapper  {
+	z-index: 10;
+}
+
+
+/* login -lg 
+
+====================== */
+.login {
+	fieldset {
+		display:block;
+		margin:5px 0 0 0;
+	}		
+}
+.login {
+	.forgotPasswordLink, .loginLinks {
+		margin:10px 0;
+	}
+}
+.homepage {
+	.login {
+
+		label {
+			display:inline-block;
+			min-width:80px;
+		}
+		.loginButton {
+			display: block;
+			font-size: 14px;
+			padding:10px 20px; 		
+			margin:10px 0 0 0;
+			&:hover {
+				.transition(all 300ms ease-in-out);
+			}
+		}
+	}
+}
+
+/* base form elements -bf */
+input[type="text"], input[type="password"] {
+	margin: 0 10px 0 0;
+	padding:4px 5px;
+	min-width: 200px;
+	font-size:14px;
+}
+input.txtBox {
+	width:500px;
+	height:30px;
+	margin-left:10px;
+	border:none;
+	.box-shadow(0 0 8px rgba(0,0,0,.3) inset);
+}
+
+
+/* button styles -bs */
+.loginButton, .goButton {
+	display:inline-block;
+	font-size:14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	line-height: 1em;
+	padding: 8px 10px;	
+	font-weight: normal;
+	border: none;
+	margin:0 0 0 10px;
+	&:hover {
+		.transition(all 300ms ease-in-out);
+	}
+} 
+
+input[type="button"], .button, .backLink a {
+	display: block;
+	cursor:pointer;
+}
+
+input[type="button"], .button {
+	padding:10px 20px;
+	text-decoration: none;
+	border:0;
+		&:hover {
+		.transition(all 50ms ease-in-out);
+	}
+}
+.backLink {
+	clear:both;
+	width:auto;
+	min-width:200px;
+	max-width:300px;
+	position: absolute;
+	bottom: 25px;
+	a {
+		margin: 40px auto;
+		text-align: center;
+		display: block;
+		padding:10px 20px;
+		text-decoration: none;
+		&:hover {
+			.transition(all 50ms ease-in-out);
+		}
+	}
+}
+/* main navigation -mn */
+.navRpt {
+	table {
+		position:relative;
+	}
+}
+.homepage .navRpt {
+}
+/* horizontal navigation -hn */
+.cm_TopItem, .cm_TopItemHover, .cm_Item, .cm_ItemHover, .cm_TopItemActive, .cm_ItemActive {
+	cursor:pointer;
+	text-align:center;
+	div {
+		.square(100%);
+		padding:8px;
+	}
+}
+.cm_TopItem, .cm_TopItemActive, .cm_TopItemHover {}
+.cm_TopGroup {}
+.cm_TopItem {}
+.cm_TopItemHover , .cm_ItemHover {}
+.cm_TopItemActive, .cm_ItemHover, .cm_ItemActive {}
+.cm_Item, .cm_ItemHover, .cm_ItemActive {
+	text-align:left;
+}
+.cm_Item {}
+.cm_ItemActive {}
+.cm_Group {}
+
+/* nav plugin -nav */
+#container {
+	width: 90%;
+	height:50px;
+	margin: 0 auto;
+	display:none;
+	h1 {
+		display:none;
+	}
+}
+
+/*ul#menulist {
+	margin: 0 auto;
+	a, a:link, a:visited {	
+
+		display: block;
+		min-height: 50px;
+		padding: 0 20px;
+		float: left;
+		line-height: 50px;
+		text-decoration: none;
+		border-right: solid 1px lighten(@primary, 5%);
+		position: relative;
+		white-space: nowrap;
+		&:hover, &:active {
+			background-color: darken(@primary, 5%);
+
+		}
+	}
+	a.active, a.active:link, a.active:visited {
+		background: darken(@primary, 5%);			
+	}
+	#dropdown {
+		li {
+			display:block;
+			border-bottom:1px solid lighten(@primary, 5%);
+		}
+		a {
+			width:100%;	
+			border-right:none !important;	
+		}
+		margin: 0 auto;
+		border-top: none;
+		display: none;
+		position: absolute;
+		left:0;
+		top:100%;
+		overflow: hidden;
+		background-color: @primary;
+		.box-shadow(0 2px 3px black);
+	}
+
+}
+li.menu {
+	float: left;
+	height:50px;
+	position:relative;
+}
+nav ul li a span {
+	color: #ccc;
+	font-size: 11px;
+}
+
+nav ul li a.active span {
+	color: #fff;
+	font-size: 11px;
+}
+#ajax {
+	padding: 20px;
+}
+
+#ajax h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #bbb;
+}
+
+.loading {
+}
+
+#main {
+	padding: 20px 0 0 0;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display:none;
+}
+
+#ajax ul {
+	float: left;
+	width: 300px;
+	padding: 0 30px 0 0;
+}
+
+#ajax ul li {
+	padding: 3px 0;
+}
+
+footer p {
+	text-align: center;
+	}*/
+
+	/* end navigation plugin styles */
+
+
+	/* utility nav -un */
+
+	.utilityNav {
+		background-color: transparent;
+		ul {
+			display: block;
+			li {
+				display:block;
+				a {
+					.square(100%);
+					text-decoration: none;
+					&:hover {
+						text-decoration: none;
+						.transition(all .3s ease-in-out);
+					}
+				}
+			}
+		}
+	}
+
+
+	/* prompt styles -ps */
+	.promptStyle {
+		padding:20px;
+		input[type="button"], .button {
+			margin: 10px 0 10px 0;
+		}
+	}
+
+/* upcoming events -ue 
+
+====================== */
+
+.ueEventType {
+	padding:5px;
+	font-size:11px;
+}
+.upcomingEventDay {
+	padding-top: 15px;
+}
+.upcomingEvent {
+	position:relative;
+	.ueContent {
+		img {
+			/* hiding old icons in upcoming events */
+			display:none;
+		}
+		.ueTitle {
+			font-weight: bold;
+		}
+		.ueTime {
+			font-size:18px;
+			font-weight:500;
+		}
+		.ueDescription {
+			font-size:12px;	
+			font-weight:400;
+			span {
+			}
+		}
+	}
+}
+
+/* today's date and view monthly calendar link */
+.upcomingEventsFooter {}
+.upcomingEventsFooter {
+	/* today's date */
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	/* view monthly calendar link */
+	a {
+		&:hover {
+		}
+	}
+}
+
+/* GLOBAL SUBPAGE STYLES - gsb */
+
+/* breadcrumbs -bc */
+.breadCrumbs {
+	width:100%;						
+	/* #translucent > .background(@black, .1) !important; */
+	a {
+		text-decoration: none;
+	}
+	.breadCrumbSeperator {}
+}
+.rootBreadCrumb, .parentBreadCrumb, .currentBreadCrumb {}
+.currentBreadCrumb {}
+.rootBreadCrumb, .parentBreadCrumb {}
+
+/* PROFILE PAGES - pro
+
+=========================== */
+
+/* shared profile content panel styles */
+
+#ctl00_mainContent_currentUserProfile_classesPanel, #ctl00_mainContent_currentUserProfile_groupsPanel, #ctl00_mainContent_currentUserProfile_linksPanel, #ctl00_mainContent_currentUserProfile_biographyPanel, #ctl00_mainContent_currentUserProfile_messagePanel, #ctl00_mainContent_ucClassProfile_profilePanel, #ctl00_mainContent_ucClassProfile_announcePanel, #ctl00_mainContent_ucClassProfile_workeventsPanel, #ctl00_mainContent_ucClassProfile_taughtByPanel, #ctl00_mainContent_ucClassProfile_resourcesPanel, #ctl00_mainContent_ucGroupProfile_workeventsPanel, #ctl00_mainContent_ucGroupProfile_ContactsPanel, #ctl00_mainContent_ucGroupProfile_announcePanel {
+	margin:30px 0 20px 0;
+	/*width:100%;*/
+	padding:0 10px;
+}
+
+
+.profile-image {
+	float:left;
+	margin-top:30px;
+	width:20%;
+}
+.profile-info {
+	position:relative;
+	float:left;
+	clear:right;
+	/*max-height:200px;*/
+	padding-left:20px;
+	font-size:16px;
+	margin-top:30px;
+	width:20%;
+	> div {
+		min-width:200px;
+	}
+	h3 {
+		margin-bottom:5px;
+		text-transform: uppercase;
+		color:darken(@white, 50%);
+		font-size: 14px;
+		font-weight:normal;
+	}
+}
+.userProfileTable {
+	td {
+		vertical-align: top;
+	}
+}
+.userProfileName {
+	font-size: 36px;
+	line-height: 1.16em;
+	font-weight:bold;
+}
+.userProfileType {
+	font-size:24px;
+	br {
+		display:none;
+	}
+}
+
+/* calendar -cal 
+
+======================= */
+
+.calBodyWrapper {
+	width: 100%;
+}
+.calCustomize {
+	display: block;
+	position: relative;
+	padding: 10px;
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+	float: left;
+	&:hover {
+		.transition(all 300ms ease-in-out);
+	}
+}
+
+.eventFilter {
+	z-index: 500;
+	.box-shadow(0 1px 4px rgba(0, 0, 0, 0.66));
+	padding: 10px;
+	color: @white;
+	center {
+		text-align: left;
+	}
+	td {
+		padding: 5px 0px;
+	}
+	input[type="button"] {
+		padding: 5px;
+		margin: 5px 0 0 0;
+		text-decoration: none;
+		&:hover {
+			.transition(all 150ms ease-in-out)
+		}
+	}
+}
+.calButtonRight, .calIcons {
+	padding: 10px;
+}
+.calIcons {
+	width: 130px;
+}
+.calUI {
+	position: relative;
+	bottom: 35px;
+	z-index:500;
+	background: none;
+	margin: 0 auto;
+	width: 280px;
+	text-align: center;
+	select {
+		display: inline-block;
+		padding: 10px 20px 10px 25px;
+		border: 0;
+		-webkit-appearance: none;
+		cursor: pointer;
+		.border-radius(0px);
+		background-image: url('@{root-img-path}icons16w.png');
+		background-repeat: no-repeat;
+		background-position: 4px -96px;
+	}
+}
+
+#ctl00_mainContent_searchLink, #ctl00_mainContent_listView_searchLink, .calExport {
+	position: absolute;
+	top: 7px;
+	background-image: url('@{root-img-path}ic-crisp-16.png');
+	background-repeat: no-repeat;
+	display: block;
+	.square(24px);
+	img {
+		display: none;
+	}
+}
+
+#ctl00_mainContent_searchLink, #ctl00_mainContent_listView_searchLink {
+	left: auto;
+	margin-right: 20px;
+	background-position: -272px -77px;
+}
+.calButtonLeft {
+	float: left;
+}
+.calExport {
+	left: 40px;
+	background-position: -363px -238px;
+}
+.calButtonRight, .calIcons {
+	position: relative;
+	top: 5px;
+	text-align: right;
+	float: right;
+	width: 150px;
+	input[type="button"] {
+		margin: 40px 0 40px 0px;
+		display: block;
+		padding: 10px 20px;
+		background: #046;
+		text-decoration: none;
+		border: 0;
+		.square(32px);
+	}
+}
+.calView, .calIconSeparate, #ctl00_mainContent_printView, #ctl00_mainContent_listView_printView {
+	display: none;
+}
+.referenceCalendar {
+	padding: 5px 0 30px 0;
+	table {
+		margin: 0 auto;
+		min-width: 300px;
+		td {
+			text-align: center;
+		}
+	}
+	.eventListingSelectedDay {
+		border: 0;
+	}
+}
+
+/* calendar search panel */
+.searchPanel {
+	padding: 10px;
+	text-shadow: none;
+	.searchPanelHeader {
+		display: none;
+	}
+	input[type="text"] {
+		padding: 8px 10px;
+		width: 100% !important;
+	}
+	input[type="button"] {
+		margin: 10px 10px 0 0;
+	}
+}
+
+/* begin grid calendar */
+.calendarMonthlyView {
+	width: 100%;
+	background-color: transparent;
+	> table {
+		clear: both;
+	}
+	table {
+		width: 100%;
+	}
+}
+
+.monthlyCalendar {
+	width: 100%;
+}
+.monthlyCalendarMonth {
+	width: 100%;
+	td {
+		height: 150px;
+		position: relative;
+		width: 14%;
+		max-width: 100px;
+	}
+	td.monthlyCalendarDayHeader {
+		height: auto;
+	}
+}
+.monthlyCalendarDayHeader {
+	font-size: 11px;
+	text-align: center;
+}
+.monthlyCalendarDay, .CalWhiteTbl {
+	padding: 5px;
+}
+.monthlyCalendarOtherMonthDay, .CalNotActiveTbl {
+	height: 100px;
+	vertical-align: top;
+}
+.monthlyCalendarSelectedDay, .CalCurDayTbl {
+
+}
+.imageAndTitle {
+	.calTitle {
+		font-size: 11px;
+		line-height: normal;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	img {
+		width: 16px !important;
+		height: 16px;
+	}
+}
+.calGridEvent {
+	padding:5px;
+}
+.calEventType {
+	text-indent: -99999px;
+	height: 5px;
+}
+.calDescription {
+	span {
+		font-size: 11px;
+	}
+}
+
+/* calendar list view */
+.listViewList {}
+.listViewSideBar {
+	width:40%;
+}
+.listViewHeader {
+	span {
+		margin:0 10px;
+	}
+	input[type="image"] {
+		margin:8px 5px;
+	}
+}
+.calListDayContainer {
+	padding: 20px 0;
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+.calendarCustomize {
+	padding:30px;
+}
+.eventTypesFilter {
+	table, div {
+		margin:10px 0;
+	}
+	center {
+		text-align: left;
+		input {
+			cursor: pointer;
+		}
+	}
+}
+
+
+/* directories / listing - dir 
+
+=========================== */
+
+
+.summaryListItem {
+	a {}
+	span {
+		display:block;
+	}
+
+}
+.resourceDescriptionPanel {
+	/*font size
+	color*/
+}
+
+.summaryListBullet {
+	display: none;
+	float: left;
+	position:relative;
+	top:10px;
+	left:0px;
+	width: 5px;
+	height: 5px;
+	/*background: darken(@primary, 20%);*/
+	margin-right:10px;
+}
+/*hide unused bullet (>)*/
+.summaryListBullet2 {
+	display:none;
+}
+
+.quickList {
+	li:first-child {
+		padding-left:0;
+	}
+	li {
+		padding:10px;
+	}
+
+}
+
+#ctl00_mainContent_folderDirectory_searchPanel, #ctl00_mainContent_siteDirectory_searchPanel, #ctl00_mainContent_facultyStaffDirectory_searchPanel, #ctl00_mainContent_classDirectory_searchPanel, #ctl00_mainContent_groupDirectory_searchPanel {
+	margin:30px 30px 30px 0;
+	input[type="text"] {
+		min-width:300px;
+	}
+	label {
+		display:none;
+	}
+}
+
+
+.itemList {
+	margin: 10px 0;
+}
+
+#ctl00_mainContent_facultyStaffDirectory, #ctl00_mainContent_classDirectory, #ctl00_mainContent_groupListing, #ctl00_mainContent_calendarDirectory, #ctl00_mainContent_pfRegistration_dlRegistration {
+	.template {
+	}	
+}
+#ctl00_mainContent_subjectDirectory_classList {
+	td {
+		vertical-align: top;
+		min-height:100px;
+	}
+}
+.directoryItem {
+	height:100%;
+	a {
+	}
+	/*DE6773*/
+	> div {
+		float:none !important;
+	}
+
+}
+/* faculty directory */
+td.directoryItem {}
+
+/* group directory */
+.groupDirItem {
+	margin:20px 0;
+}
+/* directory search results */
+#ctl00_mainContent_blogDirectory_ctl00_blogSearchLabel {
+	/*color:@darkFont;*/
+}
+.color-mpc, .box-ac .box, .box-mpc .box {
+	background-color: transparent !important;
+}
+/* directory search results */
+.color-mpc, .box-ac .box, .box-mpc .box, .directoryItem {
+	a {
+	}
+}
+/* site directory */
+
+#ctl00_mainContent_siteDirectory_directoryContent {
+	clear:both;
+}
+/* search page / search results */
+
+.gsc-results {
+	padding:30px 0;
+}
+#ecSearchResults {
+	margin:30px 0;
+	table {
+		tr {
+			background-color:transparent !important;
+		}
+		th {
+			min-width:150px;
+			font-weight:bold;
+			padding-bottom:10px;
+			text-align: left !important;
+			a {
+				color:@white;
+			}
+			img {
+				float:left;
+				margin:5px 10px 0 0;
+			}
+		}
+		td {
+			padding:10px 10px 10px 0;
+			/*border-bottom: 1px solid lighten(@primary, 10%);*/
+		}
+	}
+}
+/*temp styles to overwrite RTE styles */
+#ctl00_mainContent_currentUserProfile_ctl01_biography {
+	font {
+		/*color:@lightFont !important;*/
+		font-size:16px !important;
+	}
+}
+
+.msButton {
+	height:auto !important;
+}
+.searchResultsMainTable {
+	td {
+		padding:10px 0;
+	}
+}
+/* site directory search results */
+#ctl00_mainContent_siteDirectory_siteGrid {
+	margin:20px 0 0 0;
+	tr {
+		background-color: transparent !important;
+	}
+	th {
+		font-weight:bold;
+		text-align:left;
+	}
+}
+
+/* weather -we */
+#weatherVert, #weatherHoriz, .weatherContainer {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+td.weatherDay {
+	width: 50px;
+}
+.weatherOutlook {
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+.weatherDay span {
+	display: block;
+}
+.weatherHigh, .weatherLow {
+	font-weight: bold;
+}
+.weatherHigh {
+	color: #c00;
+}
+.weatherLow {
+	color: #06f;
+}
+.weatherDate {
+	white-space: nowrap;
+}
+
+/* directions / location */
+.directionsForm {
+	input {
+		display:inline-block !important;
+		margin:10px !important;
+	}
+}
+
+/* layout manager -lm */ 
+.layoutManager.toolbar {
+	position:absolute;
+}
+#webPartEditMenu, #debugOptions, #webPartOverlay, #colorDialog {
+	display:none;
+}
+/* global media queries -gq 
+
+============================ */
+
+@media only screen and (max-width: 1024px) {
+
+	/*crop the profile image (this is a quick and dirty (shitty) implementation. we need to do this better in jquery or something) */
+	/*.pro-image {
+		height:200px;
+		overflow:hidden;
+	}*/
+	.profile-image {
+		float:none !important;
+		width:100%;
+		position:relative; 
+	}
+	.profile-info {
+		max-height:auto !important;
+		padding-left:0px;
+		padding-bottom:20px;
+	}
+
+	.crumbs {
+		overflow-x:auto;
+	}
+	/* remove spell check button for tablets */
+	#ctl00_mainContent_ContactUsPublic_spellCheckingButton_0 {
+		display:none;
+	}
+}
+
+
+
+
+
+

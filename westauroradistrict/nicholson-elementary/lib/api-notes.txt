@@ -1,0 +1,36 @@
+NOTES on the API:
+
+How to get the site's main API ID:
+
+Login to the echalk site (http://www.exampleschool.com/login)
+Once you first login, right click and "View Page Source"
+Do a "find" (command + f) for "user_group_id"
+This is the main siteID
+
+To get the API ID's for announcements:
+
+Simply copy the siteID string into the following URL on your browser:
+
+http://webapis.echalk.net/siteApis/Sites/SITEID/AnnouncementAreas
+
+This will return all of the ID's for all of the various announcement areas that exist on the site. Note that if there not an announcement area setup for the area you are working on (e.g. Slideshow, Daily Announcements, Welcome Message), that it will need to be created.
+
+NOTES on the West Aurora School Sites:
+
+All school sites will be based upon the design from the West Aurora district site:
+http://www.sd129.org
+
+
+FTP INFO
+
+http://westhigh.sd129.org/
+ftp.echalk.com
+username is sd129 and the password is echalk2013.
+
+
+Please also note:
+
+	* For all schools, the social media links should match those on the district site
+	* On the school sites, “Message from the Superintendent” should be “Meet the Principal”.  This announcement area is already set up on each site and includes text and the principal’s photo.  If you need to make tweaks to get the design to work, feel free.
+	* The Transportation quick link should be configured to open in a new window, because it is a link that will take visitors to the district site.
+	* They’ve each provided a photo of their school building to be the first photo in their slideshow.

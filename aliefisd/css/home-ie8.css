@@ -1,0 +1,374 @@
+/*
+This patch needs the following line pasted below the main styles link in the homepage for it to work:
+<!--[if IE 8]><link rel="stylesheet" href="css/home-ie8.css"><![endif]-->
+*/
+
+#nav {
+	min-height: 36px;
+}
+
+.top-bar-section ul {
+	background: transparent;
+}
+
+.top-bar-section ul li a:hover {
+	background: #006445;
+}
+
+#home-static {
+	width: 374px;
+	height: 300px;
+}
+
+
+/* additional top bar styles */
+
+  .top-bar {
+        background: #666;
+        zoom: 1;
+        overflow: visible;
+    }
+    
+    .top-bar:before,.top-bar:after {
+        content: " ";
+        display: table;
+    }
+    
+    .top-bar:after {
+        clear: both;
+    }
+    
+    .top-bar .toggle-topbar {
+        display: none;
+    }
+    
+    .top-bar .title-area {
+        float: left;
+    }
+    
+    .top-bar .name h1 a {
+        width: auto;
+    }
+    
+    .top-bar input,.top-bar .button {
+        line-height: 2em;
+        font-size: .875em;
+        height: 2em;
+        padding: 0 10px;
+        position: relative;
+        top: 8px;
+    }
+    
+    .top-bar.expanded {
+        background: #666;
+    }
+    
+    .contain-to-grid .top-bar {
+        max-width: 62.5em;
+        margin: 0 auto;
+    }
+    
+    .top-bar-section .dropdown.right li .dropdown {
+        left: auto;
+        right: 100%;
+    }
+    
+    .top-bar-section .dropdown.left li .dropdown {
+        right: auto;
+        left: 100%;
+    }
+    
+    .top-bar-section {
+        transition: none 0 0;
+        left: 0 !important;
+    }
+    
+    .top-bar-section ul {
+        width: auto;
+        height: auto !important;
+        display: inline;
+        padding-top: 5px;
+    }
+    
+    .top-bar-section ul li {
+        float: left;
+        letter-spacing: 0;
+        font-size: 13px;
+        padding: 0;
+        line-height: 0;
+    }
+    
+    .top-bar-section ul li .js-generated {
+        display: none;
+    }
+    
+    .top-bar-section li a:not(.button) {
+        /*
+        padding: 0 15px;
+        line-height: 45px;
+        */
+        background: #666;
+    }
+    
+    .top-bar-section li a:not(.button):hover {
+        background: #000;
+    }
+    
+    .top-bar-section .has-dropdown > a {
+        padding-right: 25px !important;
+    }
+
+    .top-bar-section .has-dropdown.moved {
+        position: relative;
+    }
+    
+    .top-bar-section .has-dropdown.moved > .dropdown {
+        visibility: hidden;
+    }
+    
+    .top-bar-section .has-dropdown:hover > .dropdown,.top-bar-section .has-dropdown:active > .dropdown {
+        visibility: visible;
+    }
+    
+    .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+        border: none;
+        content: "\00bb";
+        margin-top: -5px;
+        right: 5px;
+    }
+    
+    .top-bar-section .dropdown {
+        left: 0;
+        top: auto;
+        background: transparent;
+        min-width: 100%;
+    }
+    
+    .top-bar-section .dropdown li a {
+        color: #FFF;
+        line-height: 1;
+        white-space: nowrap;
+        padding: 10px 15px;
+        background: #666;
+    }
+    
+    .top-bar-section .dropdown li label {
+        white-space: nowrap;
+        background: #666;
+    }
+    
+    .top-bar-section .dropdown li .dropdown {
+        left: 100%;
+        top: 0;
+    }
+    
+    .top-bar-section > ul > .divider {
+        border-bottom: none;
+        border-top: none;
+        border-right: solid 1px #2b2b2b;
+        border-left: solid 1px #000;
+        clear: none;
+        height: 45px;
+        width: 0;
+    }
+    
+    .top-bar-section .has-form {
+        background: #666;
+        padding: 0 15px;
+        height: 45px;
+    }
+    
+    .top-bar-section ul.right li .dropdown {
+        left: auto;
+        right: 0;
+    }
+    
+    .top-bar-section ul.right li .dropdown li .dropdown {
+        right: 100%;
+    }
+    
+    .top-bar-section .dropdown label:first-child {
+		display: none;
+    }
+
+
+
+/*  secondary pages menu bar */
+
+#ctl00_body #header nav .topbar {
+	background: #fff !important;
+}
+
+#ctl00_body #header nav .topbar a {
+	color: #006041;
+}
+
+#ctl00_body #header .top-bar-section ul li a:hover {
+    color: #fff;
+    background: #006445;
+}
+
+  #ctl00_body .top-bar {
+        background: #666;
+        zoom: 1;
+        overflow: visible;
+    }
+    
+    #ctl00_body .top-bar:before,.top-bar:after {
+        content: " ";
+        display: table;
+    }
+    
+    #ctl00_body .top-bar:after {
+        clear: both;
+    }
+    
+    #ctl00_body .top-bar .toggle-topbar {
+        display: none;
+    }
+    
+    #ctl00_body .top-bar .title-area {
+        float: left;
+    }
+    
+    #ctl00_body .top-bar .name h1 a {
+        width: auto;
+    }
+    
+    #ctl00_body .top-bar input,.top-bar .button {
+        line-height: 2em;
+        font-size: .875em;
+        height: 2em;
+        padding: 0 10px;
+        position: relative;
+        top: 8px;
+    }
+    
+    #ctl00_body .top-bar.expanded {
+        background: #ccc;
+    }
+    
+    #ctl00_body .contain-to-grid .top-bar {
+        max-width: 62.5em;
+        margin: 0 auto;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown.right li .dropdown {
+        left: auto;
+        right: 100%;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown.left li .dropdown {
+        right: auto;
+        left: 100%;
+    }
+    
+    #ctl00_body .top-bar-section {
+        transition: none 0 0;
+        left: 0 !important;
+    }
+    
+    #ctl00_body .top-bar-section ul {
+        width: auto;
+        height: auto !important;
+        display: inline;
+        padding-top: 5px;
+    }
+    
+    #ctl00_body .top-bar-section ul li {
+        float: left;
+        letter-spacing: 0;
+        font-size: 13px;
+        padding: 0;
+        line-height: 0;
+    }
+    
+    #ctl00_body .top-bar-section ul li .js-generated {
+        display: none;
+    }
+    
+    #ctl00_body .top-bar-section li a:not(.button) {
+        /*
+padding: 0 15px;
+        line-height: 45px;
+*/
+        background: #fff;
+    }
+    
+    #ctl00_body .top-bar-section li a:not(.button):hover {
+        background: #fff;
+    }
+    
+    #ctl00_body .top-bar-section .has-dropdown > a {
+        padding-right: 25px !important;
+    }
+
+    #ctl00_body .top-bar-section .has-dropdown.moved {
+        position: relative;
+    }
+    
+    #ctl00_body .top-bar-section .has-dropdown.moved > .dropdown {
+        visibility: hidden;
+    }
+    
+    #ctl00_body .top-bar-section .has-dropdown:hover > .dropdown,.top-bar-section .has-dropdown:active > .dropdown {
+        visibility: visible;
+    }
+    
+    #ctl00_body .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+        border: none;
+        content: "\00bb";
+        margin-top: -5px;
+        right: 5px;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown {
+        left: 0;
+        top: auto;
+        background: transparent;
+        min-width: 100%;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown li a {
+        color: #FFF;
+        line-height: 1;
+        white-space: nowrap;
+        padding: 10px 15px;
+        background: #666;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown li label {
+        white-space: nowrap;
+        background: #666;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown li .dropdown {
+        left: 100%;
+        top: 0;
+    }
+    
+    #ctl00_body .top-bar-section > ul > .divider {
+        display: none;
+        clear: none;
+        width: 0;
+    }
+    
+    #ctl00_body .top-bar-section .has-form {
+        background: #fff;
+        padding: 0 15px;
+        height: 45px;
+    }
+    
+    #ctl00_body.top-bar-section ul.right li .dropdown {
+        left: auto;
+        right: 0;
+    }
+    
+    #ctl00_body .top-bar-section ul.right li .dropdown li .dropdown {
+        right: 100%;
+    }
+    
+    #ctl00_body .top-bar-section .dropdown label:first-child {
+        display: none;
+    }
+

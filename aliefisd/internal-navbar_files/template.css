@@ -1,0 +1,2583 @@
+.center-ic16 {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; position: absolute;
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.cf::before {
+	display: table; content: " ";
+}
+.cf::after {
+	display: table; content: " ";
+}
+.cf::after {
+	clear: both;
+}
+.cf {
+	
+}
+.hide-scroll {
+	overflow: hidden;
+}
+.scrollMe {
+	overflow: auto !important;
+}
+.hide-text {
+	text-indent: 100%; overflow: hidden; white-space: nowrap;
+}
+.input-block-level {
+	width: 100%; display: block; min-height: 28px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+.center-ic16 {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; position: absolute;
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.cf::before {
+	display: table; content: " ";
+}
+.cf::after {
+	display: table; content: " ";
+}
+.cf::after {
+	clear: both;
+}
+.cf {
+	
+}
+.hide-scroll {
+	overflow: hidden;
+}
+.scrollMe {
+	overflow: auto !important;
+}
+.hide-text {
+	text-indent: 100%; overflow: hidden; white-space: nowrap;
+}
+.input-block-level {
+	width: 100%; display: block; min-height: 28px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+html {
+	
+}
+body {
+	
+}
+div {
+	
+}
+span {
+	
+}
+applet {
+	
+}
+object {
+	
+}
+iframe {
+	
+}
+h1 {
+	
+}
+h2 {
+	
+}
+h3 {
+	
+}
+h4 {
+	
+}
+h5 {
+	
+}
+h6 {
+	
+}
+p {
+	
+}
+blockquote {
+	
+}
+pre {
+	
+}
+a {
+	
+}
+abbr {
+	
+}
+acronym {
+	
+}
+address {
+	
+}
+big {
+	
+}
+cite {
+	
+}
+code {
+	
+}
+del {
+	
+}
+dfn {
+	
+}
+em {
+	
+}
+img {
+	
+}
+ins {
+	
+}
+kbd {
+	
+}
+q {
+	
+}
+s {
+	
+}
+samp {
+	
+}
+small {
+	
+}
+strike {
+	
+}
+strong {
+	
+}
+sub {
+	
+}
+sup {
+	
+}
+tt {
+	
+}
+var {
+	
+}
+b {
+	
+}
+u {
+	
+}
+i {
+	
+}
+center {
+	
+}
+dl {
+	
+}
+dt {
+	
+}
+dd {
+	
+}
+ol {
+	
+}
+ul {
+	
+}
+li {
+	
+}
+fieldset {
+	
+}
+form {
+	
+}
+label {
+	
+}
+legend {
+	
+}
+table {
+	
+}
+caption {
+	
+}
+tbody {
+	
+}
+tfoot {
+	
+}
+thead {
+	
+}
+tr {
+	
+}
+th {
+	
+}
+td {
+	
+}
+article {
+	
+}
+aside {
+	
+}
+canvas {
+	
+}
+details {
+	
+}
+embed {
+	
+}
+figure {
+	
+}
+figcaption {
+	
+}
+footer {
+	
+}
+header {
+	
+}
+hgroup {
+	
+}
+menu {
+	
+}
+nav {
+	
+}
+output {
+	
+}
+ruby {
+	
+}
+section {
+	
+}
+summary {
+	
+}
+time {
+	
+}
+mark {
+	
+}
+audio {
+	
+}
+video {
+	
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+ol {
+	
+}
+ul {
+	
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+blockquote::before {
+	content: none;
+}
+blockquote::after {
+	content: none;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+.cc-area {
+	position: relative;
+}
+.wrapper {
+	position: relative;
+}
+.content {
+	position: relative;
+}
+.mainContent {
+	position: relative;
+}
+.custom-layout {
+	position: relative;
+}
+link[href*='css.axd'] {
+	display: none;
+}
+body {
+	line-height: 1.5em; font-size: 16px;
+}
+body h1 {
+	font-size: 1.61em; font-weight: 500;
+}
+body a {
+	cursor: pointer;
+}
+body a:hover {
+	transition:200ms ease-in-out; -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out;
+}
+body hr {
+	display: none;
+}
+body strong {
+	font-weight: bold;
+}
+.homepage .wrapper {
+	z-index: 10;
+}
+.wrapper {
+	z-index: 10;
+}
+.login fieldset {
+	margin: 5px 0px 0px; display: block;
+}
+.login .forgotPasswordLink {
+	margin: 10px 0px;
+}
+.login .loginLinks {
+	margin: 10px 0px;
+}
+.homepage .login label {
+	display: inline-block; min-width: 80px;
+}
+.homepage .login .loginButton {
+	margin: 10px 0px 0px; padding: 10px 20px; font-size: 14px; display: block;
+}
+.homepage .login .loginButton:hover {
+	transition:300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+input[type='text'] {
+	margin: 0px 10px 0px 0px; padding: 4px 5px; font-size: 14px; min-width: 200px;
+}
+input[type='password'] {
+	margin: 0px 10px 0px 0px; padding: 4px 5px; font-size: 14px; min-width: 200px;
+}
+input.txtBox {
+	border: currentColor; width: 500px; height: 30px; margin-left: 10px; box-shadow: inset 0px 0px 8px rgba(0,0,0,0.3); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset; -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+}
+.loginButton {
+	margin: 0px 0px 0px 10px; padding: 8px 10px; border: currentColor; text-align: center; text-transform: uppercase; line-height: 1em; font-size: 14px; font-weight: normal; text-decoration: none; display: inline-block; cursor: pointer;
+}
+.goButton {
+	margin: 0px 0px 0px 10px; padding: 8px 10px; border: currentColor; text-align: center; text-transform: uppercase; line-height: 1em; font-size: 14px; font-weight: normal; text-decoration: none; display: inline-block; cursor: pointer;
+}
+.loginButton:hover {
+	transition:300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+.goButton:hover {
+	transition:300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+input[type='button'] {
+	display: block; cursor: pointer;
+}
+.button {
+	display: block; cursor: pointer;
+}
+.backLink a {
+	display: block; cursor: pointer;
+}
+input[type='button'] {
+	padding: 10px 20px; border: 0px currentColor; text-decoration: none;
+}
+.button {
+	padding: 10px 20px; border: 0px currentColor; text-decoration: none;
+}
+input[type='button']:hover {
+	transition:50ms ease-in-out; -webkit-transition: all 50ms ease-in-out; -moz-transition: all 50ms ease-in-out; -o-transition: all 50ms ease-in-out;
+}
+.button:hover {
+	transition:50ms ease-in-out; -webkit-transition: all 50ms ease-in-out; -moz-transition: all 50ms ease-in-out; -o-transition: all 50ms ease-in-out;
+}
+.backLink {
+	width: auto; bottom: 25px; clear: both; position: absolute; min-width: 200px; max-width: 300px;
+}
+.backLink a {
+	margin: 40px auto; padding: 10px 20px; text-align: center; text-decoration: none; display: block;
+}
+.backLink a:hover {
+	transition:50ms ease-in-out; -webkit-transition: all 50ms ease-in-out; -moz-transition: all 50ms ease-in-out; -o-transition: all 50ms ease-in-out;
+}
+.navRpt table {
+	position: relative;
+}
+.cm_TopItem {
+	text-align: center; cursor: pointer;
+}
+.cm_TopItemHover {
+	text-align: center; cursor: pointer;
+}
+.cm_Item {
+	text-align: center; cursor: pointer;
+}
+.cm_ItemHover {
+	text-align: center; cursor: pointer;
+}
+.cm_TopItemActive {
+	text-align: center; cursor: pointer;
+}
+.cm_ItemActive {
+	text-align: center; cursor: pointer;
+}
+.cm_TopItem div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_TopItemHover div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_Item div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_ItemHover div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_TopItemActive div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_ItemActive div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_Item {
+	text-align: left;
+}
+.cm_ItemHover {
+	text-align: left;
+}
+.cm_ItemActive {
+	text-align: left;
+}
+#container {
+	margin: 0px auto; width: 90%; height: 50px; display: none;
+}
+#container h1 {
+	display: none;
+}
+.utilityNav {
+	background-color: transparent;
+}
+.utilityNav ul {
+	display: block;
+}
+.utilityNav ul li {
+	display: block;
+}
+.utilityNav ul li a {
+	width: 100%; height: 100%; text-decoration: none;
+}
+.utilityNav ul li a:hover {
+	transition:0.3s ease-in-out; text-decoration: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
+}
+.promptStyle {
+	padding: 20px;
+}
+.promptStyle input[type='button'] {
+	margin: 10px 0px;
+}
+.promptStyle .button {
+	margin: 10px 0px;
+}
+.ueEventType {
+	padding: 5px; font-size: 11px;
+}
+.upcomingEventDay {
+	padding-top: 15px;
+}
+.upcomingEvent {
+	position: relative;
+}
+.upcomingEvent .ueContent img {
+	display: none;
+}
+.upcomingEvent .ueContent .ueTitle {
+	font-weight: bold;
+}
+.upcomingEvent .ueContent .ueTime {
+	font-size: 18px; font-weight: 500;
+}
+.upcomingEvent .ueContent .ueDescription {
+	font-size: 12px; font-weight: 400;
+}
+.upcomingEventsFooter {
+	
+}
+.upcomingEventsFooter p {
+	margin: 0px; padding: 0px;
+}
+.breadCrumbs {
+	width: 100%;
+}
+.breadCrumbs a {
+	text-decoration: none;
+}
+#ctl00_mainContent_currentUserProfile_classesPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_currentUserProfile_groupsPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_currentUserProfile_linksPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_currentUserProfile_biographyPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_currentUserProfile_messagePanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucClassProfile_announcePanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucClassProfile_taughtByPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucGroupProfile_workeventsPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucGroupProfile_ContactsPanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+#ctl00_mainContent_ucGroupProfile_announcePanel {
+	margin: 30px 0px 20px; padding: 0px 10px;
+}
+.profile-image {
+	width: 20%; margin-top: 30px; float: left;
+}
+.profile-info {
+	width: 20%; padding-left: 20px; clear: right; font-size: 16px; margin-top: 30px; float: left; position: relative;
+}
+.profile-info > div {
+	min-width: 200px;
+}
+.profile-info h3 {
+	color: rgb(128, 128, 128); text-transform: uppercase; font-size: 14px; font-weight: normal; margin-bottom: 5px;
+}
+.userProfileTable td {
+	vertical-align: top;
+}
+.userProfileName {
+	line-height: 1.16em; font-size: 36px; font-weight: bold;
+}
+.userProfileType {
+	font-size: 24px;
+}
+.userProfileType br {
+	display: none;
+}
+.calBodyWrapper {
+	width: 100%;
+}
+.calCustomize {
+	padding: 10px; border: 0px currentColor; text-decoration: none; float: left; display: block; position: relative; cursor: pointer;
+}
+.calCustomize:hover {
+	transition:300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+.eventFilter {
+	padding: 10px; color: rgb(255, 255, 255); z-index: 500; box-shadow: 0px 1px 4px rgba(0,0,0,0.66); -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66); -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66);
+}
+.eventFilter center {
+	text-align: left;
+}
+.eventFilter td {
+	padding: 5px 0px;
+}
+.eventFilter input[type='button'] {
+	margin: 5px 0px 0px; padding: 5px; text-decoration: none;
+}
+.eventFilter input[type='button']:hover {
+	transition:150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out;
+}
+.calButtonRight {
+	padding: 10px;
+}
+.calIcons {
+	padding: 10px;
+}
+.calIcons {
+	width: 130px;
+}
+.calUI {
+	margin: 0px auto; width: 280px; text-align: center; bottom: 35px; position: relative; z-index: 500;
+}
+.calUI select {
+	background-position: 4px -96px; padding: 10px 20px 10px 25px; border-radius: 0px; border: 0px currentColor; display: inline-block; cursor: pointer; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/icons16w.png"); background-repeat: no-repeat; -moz-border-radius: 0px; -webkit-border-radius: 0px; -webkit-appearance: none; -o-border-radius: 0px;
+}
+#ctl00_mainContent_searchLink {
+	top: 7px; width: 24px; height: 24px; display: block; position: absolute; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/ic-crisp-16.png"); background-repeat: no-repeat;
+}
+#ctl00_mainContent_listView_searchLink {
+	top: 7px; width: 24px; height: 24px; display: block; position: absolute; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/ic-crisp-16.png"); background-repeat: no-repeat;
+}
+.calExport {
+	top: 7px; width: 24px; height: 24px; display: block; position: absolute; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/ic-crisp-16.png"); background-repeat: no-repeat;
+}
+#ctl00_mainContent_searchLink img {
+	display: none;
+}
+#ctl00_mainContent_listView_searchLink img {
+	display: none;
+}
+.calExport img {
+	display: none;
+}
+#ctl00_mainContent_searchLink {
+	background-position: -272px -77px; left: auto; margin-right: 20px;
+}
+#ctl00_mainContent_listView_searchLink {
+	background-position: -272px -77px; left: auto; margin-right: 20px;
+}
+.calButtonLeft {
+	float: left;
+}
+.calExport {
+	background-position: -363px -238px; left: 40px;
+}
+.calButtonRight {
+	top: 5px; width: 150px; text-align: right; float: right; position: relative;
+}
+.calIcons {
+	top: 5px; width: 150px; text-align: right; float: right; position: relative;
+}
+.calButtonRight input[type='button'] {
+	background: rgb(0, 68, 102); margin: 40px 0px; padding: 10px 20px; border: 0px currentColor; width: 32px; height: 32px; text-decoration: none; display: block;
+}
+.calIcons input[type='button'] {
+	background: rgb(0, 68, 102); margin: 40px 0px; padding: 10px 20px; border: 0px currentColor; width: 32px; height: 32px; text-decoration: none; display: block;
+}
+.calView {
+	display: none;
+}
+.calIconSeparate {
+	display: none;
+}
+#ctl00_mainContent_printView {
+	display: none;
+}
+#ctl00_mainContent_listView_printView {
+	display: none;
+}
+.referenceCalendar {
+	padding: 5px 0px 30px;
+}
+.referenceCalendar table {
+	margin: 0px auto; min-width: 300px;
+}
+.referenceCalendar table td {
+	text-align: center;
+}
+.referenceCalendar .eventListingSelectedDay {
+	border: 0px currentColor;
+}
+.searchPanel {
+	padding: 10px; text-shadow: none;
+}
+.searchPanel .searchPanelHeader {
+	display: none;
+}
+.searchPanel input[type='text'] {
+	padding: 8px 10px; width: 100% !important;
+}
+.searchPanel input[type='button'] {
+	margin: 10px 10px 0px 0px;
+}
+.calendarMonthlyView {
+	width: 100%; background-color: transparent;
+}
+.calendarMonthlyView > table {
+	clear: both;
+}
+.calendarMonthlyView table {
+	width: 100%;
+}
+.monthlyCalendar {
+	width: 100%;
+}
+.monthlyCalendarMonth {
+	width: 100%;
+}
+.monthlyCalendarMonth td {
+	width: 14%; height: 150px; position: relative; max-width: 100px;
+}
+.monthlyCalendarMonth td.monthlyCalendarDayHeader {
+	height: auto;
+}
+.monthlyCalendarDayHeader {
+	text-align: center; font-size: 11px;
+}
+.monthlyCalendarDay {
+	padding: 5px;
+}
+.CalWhiteTbl {
+	padding: 5px;
+}
+.monthlyCalendarOtherMonthDay {
+	height: 100px; vertical-align: top;
+}
+.CalNotActiveTbl {
+	height: 100px; vertical-align: top;
+}
+.imageAndTitle .calTitle {
+	line-height: normal; overflow: hidden; font-size: 11px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.imageAndTitle img {
+	width: 16px !important; height: 16px;
+}
+.calGridEvent {
+	padding: 5px;
+}
+.calEventType {
+	height: 5px; text-indent: -99999px;
+}
+.calDescription span {
+	font-size: 11px;
+}
+.listViewSideBar {
+	width: 40%;
+}
+.listViewHeader span {
+	margin: 0px 10px;
+}
+.listViewHeader input[type='image'] {
+	margin: 8px 5px;
+}
+.calListDayContainer {
+	padding: 20px 0px; border-bottom-color: rgba(255, 255, 255, 0.2); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.calendarCustomize {
+	padding: 30px;
+}
+.eventTypesFilter table {
+	margin: 10px 0px;
+}
+.eventTypesFilter div {
+	margin: 10px 0px;
+}
+.eventTypesFilter center {
+	text-align: left;
+}
+.eventTypesFilter center input {
+	cursor: pointer;
+}
+.summaryListItem span {
+	display: block;
+}
+.resourceDescriptionPanel {
+	
+}
+.summaryListBullet {
+	left: 0px; top: 10px; width: 5px; height: 5px; margin-right: 10px; float: left; display: none; position: relative;
+}
+.summaryListBullet2 {
+	display: none;
+}
+.quickList li:first-child {
+	padding-left: 0px;
+}
+.quickList li {
+	padding: 10px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_siteDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_classDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_groupDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_siteDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_classDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_groupDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_siteDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_classDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_groupDirectory_searchPanel label {
+	display: none;
+}
+.itemList {
+	margin: 10px 0px;
+}
+#ctl00_mainContent_subjectDirectory_classList td {
+	vertical-align: top; min-height: 100px;
+}
+.directoryItem {
+	height: 100%;
+}
+.directoryItem > div {
+	float: none !important;
+}
+.groupDirItem {
+	margin: 20px 0px;
+}
+#ctl00_mainContent_blogDirectory_ctl00_blogSearchLabel {
+	
+}
+.color-mpc {
+	background-color: transparent !important;
+}
+.box-ac .box {
+	background-color: transparent !important;
+}
+.box-mpc .box {
+	background-color: transparent !important;
+}
+#ctl00_mainContent_siteDirectory_directoryContent {
+	clear: both;
+}
+.gsc-results {
+	padding: 30px 0px;
+}
+#ecSearchResults {
+	margin: 30px 0px;
+}
+#ecSearchResults table tr {
+	background-color: transparent !important;
+}
+#ecSearchResults table th {
+	text-align: left !important; padding-bottom: 10px; font-weight: bold; min-width: 150px;
+}
+#ecSearchResults table th a {
+	color: rgb(255, 255, 255);
+}
+#ecSearchResults table th img {
+	margin: 5px 10px 0px 0px; float: left;
+}
+#ecSearchResults table td {
+	padding: 10px 10px 10px 0px;
+}
+#ctl00_mainContent_currentUserProfile_ctl01_biography font {
+	font-size: 16px !important;
+}
+.msButton {
+	height: auto !important;
+}
+.searchResultsMainTable td {
+	padding: 10px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid {
+	margin: 20px 0px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid tr {
+	background-color: transparent !important;
+}
+#ctl00_mainContent_siteDirectory_siteGrid th {
+	text-align: left; font-weight: bold;
+}
+#weatherVert {
+	margin: 0px; padding: 0px; clear: both;
+}
+#weatherHoriz {
+	margin: 0px; padding: 0px; clear: both;
+}
+.weatherContainer {
+	margin: 0px; padding: 0px; clear: both;
+}
+td.weatherDay {
+	width: 50px;
+}
+.weatherOutlook {
+	padding-right: 15px; padding-bottom: 15px;
+}
+.weatherDay span {
+	display: block;
+}
+.weatherHigh {
+	font-weight: bold;
+}
+.weatherLow {
+	font-weight: bold;
+}
+.weatherHigh {
+	color: rgb(204, 0, 0);
+}
+.weatherLow {
+	color: rgb(0, 102, 255);
+}
+.weatherDate {
+	white-space: nowrap;
+}
+.directionsForm input {
+	margin: 10px !important; display: inline-block !important;
+}
+.toolbar.layoutManager {
+	position: absolute;
+}
+#webPartEditMenu {
+	display: none;
+}
+#debugOptions {
+	display: none;
+}
+#webPartOverlay {
+	display: none;
+}
+#colorDialog {
+	display: none;
+}
+@media only screen and (max-width:1024px)
+{
+.profile-image {
+	width: 100%; float: none !important; position: relative;
+}
+.profile-info {
+	padding-bottom: 20px; padding-left: 0px;
+}
+.crumbs {
+	-ms-overflow-x: auto;
+}
+#ctl00_mainContent_ContactUsPublic_spellCheckingButton_0 {
+	display: none;
+}
+}
+body {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_bg_dark.jpg") rgb(76, 76, 76); padding: 0px 0px 18px; color: rgb(71, 71, 71); line-height: 20px; font-family: "Source Sans Pro", sans-serif; font-size: 16px; text-rendering: optimizelegibility;
+}
+body a {
+	color: rgb(0, 96, 65); font-weight: bold; text-decoration: underline; text-shadow: none;
+}
+body a:hover {
+	color: rgb(102, 102, 102);
+}
+p {
+	font-family: "Crimson Text", serif;
+}
+.wrapper {
+	margin: 0px auto; width: 100%; min-height: 600px;
+}
+.wrapper-inner {
+	margin: 0px; padding: 0px; width: 100%; position: relative;
+}
+.wrap {
+	margin: 0px; padding: 0px; width: 100%; position: relative;
+}
+.inner-container {
+	margin: 0px auto; width: 96%; position: relative; max-width: 980px;
+}
+.login fieldset {
+	margin: 5px 0px; padding: 5px; border: 0px currentColor;
+}
+.login input[type='text'] {
+	margin: 0px 10px 0px 0px; padding: 2px 5px; width: 160px; font-size: 14px; min-width: 0px; max-width: 160px; box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+.login input[type='password'] {
+	margin: 0px 10px 0px 0px; padding: 2px 5px; width: 160px; font-size: 14px; min-width: 0px; max-width: 160px; box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+.login label {
+	width: 100px; text-align: right; margin-left: -30px; display: inline-block;
+}
+.homepage .login {
+	left: 30px; top: 250px; font-size: 13px; position: absolute; z-index: 201;
+}
+.homepage .login .loginButton {
+	background: rgb(0, 96, 65);
+}
+.homepage .login .loginButton:hover {
+	background: rgb(0, 147, 100); color: rgb(255, 255, 255);
+}
+.homepage .login a {
+	color: rgb(0, 96, 65); font-weight: bold; text-shadow: none;
+}
+.homepage .login a:hover {
+	color: rgb(102, 102, 102);
+}
+.loginButton {
+	background: rgb(0, 96, 65); color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif;
+}
+.goButton {
+	background: rgb(0, 96, 65); color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif;
+}
+.loginButton:hover {
+	background: rgb(102, 102, 102);
+}
+.goButton:hover {
+	background: rgb(102, 102, 102);
+}
+input[type='button'] {
+	background: rgb(0, 96, 65); padding: 10px; color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif; font-weight: bold;
+}
+.button {
+	background: rgb(0, 96, 65); padding: 10px; color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif; font-weight: bold;
+}
+input[type='button']:hover {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+.button:hover {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+.backLink {
+	bottom: 0px; display: inline-block; position: relative; min-width: 0px; max-width: 100%;
+}
+.backLink a {
+	background: rgb(0, 96, 65); margin: 18px 0px; padding: 10px; color: rgb(255, 255, 255); line-height: 15px; font-size: 14px;
+}
+.backLink a:hover {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+.backLink a::before {
+	padding-right: 3px; display: inline-block; content: "\00AB";
+}
+.cm_TopItem {
+	cursor: pointer;
+}
+.cm_TopItemHover {
+	cursor: pointer;
+}
+.cm_Item {
+	cursor: pointer;
+}
+.cm_ItemHover {
+	cursor: pointer;
+}
+.cm_TopItemActive {
+	cursor: pointer;
+}
+.cm_ItemActive {
+	cursor: pointer;
+}
+.cm_TopItem div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_TopItemHover div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_Item div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_ItemHover div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_TopItemActive div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_ItemActive div {
+	padding: 8px; width: 100%; height: 100%;
+}
+.cm_TopItem {
+	text-align: center; border-left-color: rgba(255, 255, 255, 0.1); border-left-width: 1px; border-left-style: solid;
+}
+.cm_TopItemActive {
+	text-align: center; border-left-color: rgba(255, 255, 255, 0.1); border-left-width: 1px; border-left-style: solid;
+}
+.cm_TopItemHover {
+	text-align: center; border-left-color: rgba(255, 255, 255, 0.1); border-left-width: 1px; border-left-style: solid;
+}
+.cm_TopGroup {
+	border-right-color: rgba(255, 255, 255, 0.1); border-right-width: 1px; border-right-style: solid;
+}
+.cm_TopItem {
+	color: rgb(71, 71, 71);
+}
+.cm_TopItemHover {
+	background: rgb(0, 147, 100);
+}
+.cm_ItemHover {
+	background: rgb(0, 147, 100);
+}
+.cm_TopItemActive {
+	background: rgb(0, 147, 100);
+}
+.cm_ItemHover {
+	background: rgb(0, 147, 100);
+}
+.cm_ItemActive {
+	background: rgb(0, 147, 100);
+}
+.cm_Item {
+	background-color: rgb(0, 96, 65);
+}
+.cm_ItemActive {
+	background-color: rgb(0, 0, 0);
+}
+.cm_Group {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navRpt {
+	border: 0px currentColor; left: 0px; top: 0px; width: 100% !important; font-weight: 700; position: relative; z-index: 300; box-shadow: none;
+}
+.navRpt table {
+	margin: 0px auto; width: 100%; height: 45px;
+}
+.homepage .navRpt {
+	top: 0px;
+}
+.topNav {
+	margin: 0px auto; position: relative; max-width: 980px;
+}
+.utilityNav {
+	top: 35px; width: 280px; right: 0px; display: none; position: absolute; z-index: 301;
+}
+.utilityNav ul {
+	text-align: right; display: block;
+}
+.utilityNav ul li {
+	font-size: 11px; float: left;
+}
+.utilityNav ul li a {
+	padding: 5px 10px; color: rgb(20, 20, 20); text-decoration: none; display: block;
+}
+.utilityNav ul li a:hover {
+	transition:0.3s ease-in-out; color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(0, 0, 0); -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
+}
+.homepage .utilityNav {
+	left: 85px; top: 505px; width: 300px; display: none; position: absolute; z-index: 110;
+}
+.homepage .utilityNav ul {
+	text-align: center;
+}
+.homepage .utilityNav a {
+	padding: 4px 8px;
+}
+.homepage .logo {
+	left: 60px; top: 45px; width: 300px; height: 500px; display: none; position: relative; z-index: 100; box-shadow: 0px 0px 3px rgba(0,0,0,0.66); background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img/logo.png"); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.66); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.66);
+}
+.logo {
+	left: 0px; top: 0px; width: 100%; height: 100px; display: none; position: relative; z-index: 300; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img/logo-horiz.jpg"); background-repeat: no-repeat; background-color: rgba(0, 0, 0, 0.75) !important;
+}
+.promptStyle {
+	background-color: rgb(0, 96, 65);
+}
+.ueDate {
+	padding: 2px 0px 0px; height: 32px; color: rgb(255, 255, 255); font-size: 18px; font-weight: 500; white-space: nowrap; text-shadow: -1px -1px 0px rgba(0,0,0,0.2); background-repeat: no-repeat;
+}
+.ueDateBullet {
+	background-position: -303px -46px; top: 2px; width: 16px; height: 16px; margin-right: 10px; display: inline-block; position: relative; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img/icons-clean-flat-16.png"); background-color: transparent !important;
+}
+.content-3 {
+	background: rgb(0, 71, 48); padding: 40px 20px 10px; width: 40%; float: right; position: relative; max-height: 400px; box-shadow: inset 0px 0px 60px rgba(0,0,0,0.33); -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.33) inset; -moz-box-shadow: 0 0 60px rgba(0, 0, 0, 0.33) inset;
+}
+.content-3 .ueEventType {
+	padding: 5px; font-size: 11px;
+}
+.content-3 .upcomingEvent {
+	margin: 5px 0px; padding: 3%; line-height: normal; position: relative; box-shadow: 0px 1px 2px rgba(0,0,0,0.3); background-image: none; background-attachment: scroll; background-repeat: repeat; background-size: auto; background-origin: padding-box; background-clip: border-box; background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.content-3 .upcomingEvent .ueContent {
+	color: rgb(255, 255, 255) !important; text-shadow: 1px 1px 0px rgba(255,255,255,0.1);
+}
+.content-3 .upcomingEvent .ueContent img {
+	top: 5px; margin-right: 10px !important; display: none; position: relative;
+}
+.content-3 .upcomingEvent .ueContent .ueTitle {
+	font-weight: bold;
+}
+.content-3 .upcomingEvent .ueContent .ueTime {
+	font-size: 18px; font-weight: 500;
+}
+.content-3 .upcomingEvent .ueContent .ueDescription {
+	font-size: 12px; font-weight: 400;
+}
+.content-3 .upcomingEvent .ueContent .ueDescription span {
+	color: rgb(0, 0, 0) !important;
+}
+.content-3 .upcomingEventsFooter {
+	background: rgb(0, 20, 13); padding: 10px 15px; left: 0px; top: 0px; width: 100%; position: absolute;
+}
+.content-3 .upcomingEventsFooter {
+	height: 40px;
+}
+.content-3 .upcomingEventsFooter p {
+	margin: 0px; color: rgb(71, 71, 71); font-size: 16px; font-weight: 300; position: absolute;
+}
+.content-3 .upcomingEventsFooter a {
+	background: rgb(0, 4, 3); padding: 4px 10px; top: 5px; height: 30px; right: 5px; color: rgb(46, 46, 46); font-size: 12px; text-decoration: none; display: block; position: absolute;
+}
+.content-3 .upcomingEventsFooter a:hover {
+	background: rgb(0, 0, 0); transition:150ms ease-in-out; color: rgb(255, 255, 255); -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out;
+}
+.cc-area {
+	overflow: hidden;
+}
+.content {
+	overflow: hidden;
+}
+.content {
+	background: rgb(255, 255, 255); padding: 10px; position: relative; z-index: 200; min-height: 500px;
+}
+.content-header > h1 {
+	font-weight: 700; margin-top: 30px; margin-bottom: 10px; display: none;
+}
+.content-header img {
+	margin-left: 5px;
+}
+.content-body img {
+	margin: 5px 10px 5px 0px;
+}
+.banner {
+	overflow: hidden;
+}
+#nav1 {
+	display: none;
+}
+#s1-next {
+	background: rgb(0, 0, 0); top: 50%; width: 50px; height: 110px; font-family: "Astloch"; font-size: 32px; font-weight: 700; margin-top: -55px; position: absolute; z-index: 200; cursor: pointer; opacity: 0.4; box-shadow: 0px 0px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+#s1-prev {
+	background: rgb(0, 0, 0); top: 50%; width: 50px; height: 110px; font-family: "Astloch"; font-size: 32px; font-weight: 700; margin-top: -55px; position: absolute; z-index: 200; cursor: pointer; opacity: 0.4; box-shadow: 0px 0px 3px rgba(0,0,0,0.75); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+#s1-next:hover {
+	transition:300ms ease-in-out; opacity: 1; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+#s1-prev:hover {
+	transition:300ms ease-in-out; opacity: 1; -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out;
+}
+#s1-next {
+	right: 0px;
+}
+#s1-prev {
+	left: 0px;
+}
+#s1-next::before {
+	top: 50%; margin-top: -14px; position: absolute;
+}
+#s1-prev::before {
+	top: 50%; margin-top: -14px; position: absolute;
+}
+#s1-next::before {
+	right: 40%; content: ">";
+}
+#s1-prev::before {
+	left: 40%; content: "<";
+}
+.content-1 {
+	padding: 0px !important; width: 100%; height: 545px;
+}
+.content-1 .content-header h1 {
+	display: none;
+}
+#s1 {
+	margin: 0px; width: 100%; height: 545px; position: relative;
+}
+#s1 .announcementItem {
+	margin: 0px; width: 100%; right: 0px; bottom: 0px; padding-top: 0px; border-bottom-color: rgba(255, 255, 255, 0.1); border-bottom-width: 1px; border-bottom-style: dotted; position: absolute;
+}
+#s1 .announcementItem img {
+	top: 0px; width: auto; position: absolute; z-index: 1; min-height: 545px; min-width: 100%;
+}
+#s1 .announcementItem > span {
+	font-weight: 300; display: block;
+}
+#s1 .announcementContent {
+	padding: 20px 20px 20px 380px; width: 100%; bottom: 20px; line-height: 1.33em; font-weight: normal; display: block; position: absolute; z-index: 2; background-image: none; background-attachment: scroll; background-repeat: repeat; background-size: auto; background-origin: padding-box; background-clip: border-box; background-color: rgba(0, 0, 0, 0.66) !important;
+}
+#s1 .announcementContent span {
+	font-size: 18px;
+}
+#s1 .announcementContent nobr {
+	color: white; line-height: 19px; font-family: "Source Sans Pro", sans-serif !important; font-style: italic; margin-top: 10px; display: block; background-color: transparent !important;
+}
+.content-2 {
+	width: 55%; padding-right: 20px; float: left; max-height: 245px;
+}
+.content-2 hr {
+	display: none;
+}
+.content-2 .announcementItem {
+	padding: 20px 0px; border-bottom-color: rgba(255, 255, 255, 0.2); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.content-2 .announcementItem img {
+	width: 150px; margin-right: 10px; float: left;
+}
+.ueDescription span {
+	font-family: "Source Sans Pro", sans-serif !important;
+}
+.announcementItem span {
+	font-family: "Source Sans Pro", sans-serif !important;
+}
+.announcementItem span {
+	color: rgb(71, 71, 71) !important; font-size: 16px !important;
+}
+.content-4 {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img/logo-twitter.png") no-repeat 10px 10px rgb(0, 45, 30); padding: 10px 10px 10px 25px; width: 53%; height: 125px; margin-top: 30px; float: left; max-height: 125px;
+}
+.content-4 .content-header h1 {
+	display: none;
+}
+.content-4 #jstwitter {
+	padding: 10px; width: 100%; color: rgb(255, 255, 255); font-size: 15px;
+}
+.content-4 #jstwitter .tweet {
+	margin: 0px auto 15px; padding: 0px 0px 15px; border-bottom-color: rgba(255, 255, 255, 0.1); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.content-4 #jstwitter .tweet a {
+	color: rgb(19, 201, 208); text-decoration: none;
+}
+.content-4 #jstwitter .tweet a:hover {
+	text-decoration: underline;
+}
+.content-4 #jstwitter .tweet .time {
+	color: rgb(20, 20, 20); font-size: 10px; font-style: italic;
+}
+.footer-container {
+	margin: 0px; padding: 14px 0px; width: 100%; color: rgb(71, 71, 71); border-top-color: rgb(0, 96, 65); border-bottom-color: rgb(0, 96, 65); border-top-width: 3px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid; position: relative; background-color: rgb(170, 170, 170);
+}
+.footer {
+	background-position: right; background-image: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img/powered_by_sm.png"); background-repeat: no-repeat;
+}
+.footer {
+	margin: 0px auto; padding: 0px; width: 96%; font-size: 10px; max-width: 980px;
+}
+.subFooter {
+	margin: 0px auto; padding: 0px; width: 96%; font-size: 10px; max-width: 980px;
+}
+.footer .locateSchoolLink {
+	color: rgb(221, 221, 221);
+}
+.subFooter .locateSchoolLink {
+	color: rgb(221, 221, 221);
+}
+.footer .userPolicy {
+	float: right; display: none;
+}
+.subFooter .userPolicy {
+	float: right; display: none;
+}
+.footer .userPolicy a {
+	color: rgb(102, 102, 102);
+}
+.subFooter .userPolicy a {
+	color: rgb(102, 102, 102);
+}
+.footer .box-nc {
+	padding: 0px; color: rgb(255, 255, 255);
+}
+.siteInformation {
+	font-size: 12px;
+}
+.content-5 {
+	display: none;
+}
+.content-5 {
+	display: none;
+}
+.content-6 {
+	display: none;
+}
+.content-7 {
+	display: none;
+}
+.content-8 {
+	display: none;
+}
+.content-9 {
+	display: none;
+}
+.content-10 {
+	display: none;
+}
+.content-11 {
+	display: none;
+}
+.content-12 {
+	display: none;
+}
+.pageTitleContainer {
+	margin: 0px 0px 20px;
+}
+.pageTitle {
+	color: rgb(0, 96, 65); line-height: 28px; padding-bottom: 5px; font-family: "Source Sans Pro", sans-serif; font-size: 26px; font-weight: 700; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: block; text-shadow: none;
+}
+.breadCrumbs {
+	margin: 0px 0px 18px; padding: 0px; width: 100%; line-height: 18px; font-family: "Source Sans Pro", sans-serif; font-size: 14px; position: relative; z-index: 110;
+}
+.breadCrumbs a {
+	text-decoration: none;
+}
+.breadCrumbs .breadCrumbSeperator {
+	display: inline-block;
+}
+.breadCrumbs .breadCrumbSeperator::before {
+	color: rgb(170, 170, 170); padding-left: 3px; display: inline-block; content: "\00BB";
+}
+.rootBreadCrumb {
+	font-weight: bold;
+}
+.parentBreadCrumb {
+	font-weight: bold;
+}
+.currentBreadCrumb {
+	font-weight: bold;
+}
+.currentBreadCrumb {
+	color: rgb(255, 255, 255);
+}
+.rootBreadCrumb {
+	color: rgb(170, 170, 170);
+}
+.parentBreadCrumb {
+	color: rgb(170, 170, 170);
+}
+.content h1 {
+	line-height: 24px; font-size: 22px;
+}
+.content h2 {
+	line-height: 22px; font-size: 20px;
+}
+.content h3 {
+	line-height: 20px; font-size: 18px;
+}
+.content h4 {
+	line-height: 18px; font-size: 16px;
+}
+.content img {
+	max-width: 100%;
+}
+.profile-image {
+	margin-top: 0px; float: left;
+}
+.profile-info {
+	padding-left: 0px; clear: both; font-size: 18px; margin-top: 5px; float: left; position: relative;
+}
+.profile-info div {
+	min-width: 200px;
+}
+.profile-info h3 {
+	color: rgb(0, 96, 65); text-transform: uppercase; font-size: 13px; font-weight: bold; margin-top: 20px; margin-bottom: 0px;
+}
+.profileBiography {
+	font-family: "Crimson Text", serif;
+}
+.profileMessage {
+	font-family: "Crimson Text", serif;
+}
+.userProfileName {
+	top: 0px; font-size: 32px;
+}
+.userProfileType {
+	font-size: 22px; margin-top: 10px; margin-bottom: 10px;
+}
+.userProfilePhone {
+	margin-top: 30px;
+}
+.userProfileTable {
+	margin-left: 212px;
+}
+.userProfileLeftCol {
+	padding-right: 20px !important;
+}
+.summaryImg {
+	margin: 5px 10px 5px 0px;
+}
+.userProfileRightCol {
+	width: 33%;
+}
+.groupProfileSideBar {
+	width: 33%;
+}
+#ctl00_mainContent_currentUserProfile_classesPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_currentUserProfile_groupsPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_currentUserProfile_linksPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_currentUserProfile_biographyPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_currentUserProfile_messagePanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucClassProfile_announcePanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucClassProfile_taughtByPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucGroupProfile_workeventsPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucGroupProfile_ContactsPanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_ucGroupProfile_announcePanel {
+	margin: 30px 0px; padding: 0px; width: 100%;
+}
+#ctl00_mainContent_currentUserProfile_classesPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_currentUserProfile_groupsPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_currentUserProfile_linksPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_currentUserProfile_biographyPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_currentUserProfile_messagePanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_announcePanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_taughtByPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucGroupProfile_workeventsPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucGroupProfile_ContactsPanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_ucGroupProfile_announcePanel h1 {
+	margin: 0px 0px 20px; color: rgb(0, 96, 65); line-height: 26px; font-size: 24px; font-weight: bold;
+}
+h1#ctl00_mainContent_listView_ctl01_header {
+	margin: 0px 0px 14px; color: rgb(0, 96, 65); line-height: 26px; font-family: "Source Sans Pro", sans-serif; font-size: 24px; font-weight: bold;
+}
+#ctl00_mainContent_currentUserProfile_biographyPanel {
+	margin-top: 0px;
+}
+#ctl00_mainContent_currentUserProfile_messagePanel {
+	margin-top: 0px;
+}
+#ctl00_mainContent_currentUserProfile_groupsPanel {
+	margin-top: 0px;
+}
+#ctl00_mainContent_currentUserProfile_linksPanel {
+	margin-top: 0px;
+}
+#ctl00_mainContent_ucGroupProfile_ctl00_body {
+	background: rgb(0, 96, 65); padding: 7px 10px 10px; color: rgb(255, 255, 255);
+}
+#ctl00_mainContent_ucGroupProfile_ctl00_body a {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+#ctl00_mainContent_ucGroupProfile_ctl00_body td {
+	color: rgb(255, 255, 255);
+}
+.groupProfileSideBar .box-header {
+	background: rgb(0, 96, 65); color: rgb(255, 255, 255);
+}
+.groupProfileSideBar .box-header h1 {
+	margin: 0px !important; padding: 10px 0px; text-align: center; color: rgb(255, 255, 255) !important; text-transform: uppercase; line-height: 18px !important; font-family: "Source Sans Pro", sans-serif; font-size: 16px !important; font-weight: 700;
+}
+.groupProfileSideBar .box-body {
+	background: rgb(204, 204, 204); padding: 10px;
+}
+.viewMonthlyCalLink {
+	text-align: center; color: rgb(0, 96, 65) !important; display: block;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel span {
+	color: rgb(71, 71, 71); font-size: 16px !important;
+}
+.linkCategory {
+	margin: 5px 0px;
+}
+.linkCategoryRow nobr {
+	font-weight: bold;
+}
+.linkCategoryRow img {
+	margin: 0px 10px;
+}
+.linkAddress {
+	font-size: 14px; font-style: italic; display: none; cursor: pointer;
+}
+.linkRow tr td:first-child {
+	width: 0px !important;
+}
+.linkRow tr td:first-child div {
+	width: 0px !important;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel {
+	font-size: 16px;
+}
+#ctl00_mainContent_ucClassProfile_profilePanel img {
+	margin: 5px 10px 5px 0px;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel .resourceDescriptionPanel {
+	font-size: 13px;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel .summaryListItem {
+	margin: 10px 10px 10px 0px; padding: 0px; border: currentColor; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel .summaryListItem:hover {
+	
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel .summaryListItem a {
+	font-size: 16px; text-decoration: none;
+}
+#ctl00_mainContent_ucClassProfile_resourcesPanel .summaryListItem span {
+	display: block;
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel td {
+	
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel span.CalEventType {
+	text-transform: uppercase; line-height: 1.1em; font-size: 11px; font-weight: bold;
+}
+#ctl00_mainContent_ucClassProfile_workeventsPanel h3 {
+	color: rgb(0, 198, 134); font-weight: bold;
+}
+#ctl00_mainContent_ucGroupProfile_ctl03_body .summaryListItem {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//grayarrow.jpg") no-repeat rgb(255, 255, 255); padding: 0px 0px 0px 20px; line-height: 20px; font-family: "Crimson Text", serif; font-size: 16px;
+}
+#ctl00_mainContent_ucGroupProfile_ctl03_body .summaryListItem a {
+	text-decoration: none;
+}
+.groupProfileSection {
+	margin: 30px 0px; clear: both; position: relative;
+}
+.groupProfileSection h1 {
+	color: rgb(0, 96, 65); line-height: 26px; font-family: "Source Sans Pro", sans-serif; font-size: 24px; font-weight: 700; margin-bottom: 10px;
+}
+#ctl00_mainContent_help .quickList {
+	margin: 20px 0px 0px 20px;
+}
+#ctl00_mainContent_help li:first-child {
+	padding-left: 10px;
+}
+.siteListTable .box-header h1 {
+	margin: 30px 0px 10px;
+}
+.siteListAdminHeader {
+	margin-top: 30px;
+}
+.siteListAddress br {
+	display: none;
+}
+.siteListShowAll a {
+	background: rgb(0, 96, 65); margin: 40px 0px; padding: 10px; color: rgb(255, 255, 255); text-decoration: none; display: inline-block;
+}
+.siteListShowAll a:hover {
+	background: rgb(102, 102, 102); transition:50ms ease-in-out; color: rgb(255, 255, 255); -webkit-transition: all 50ms ease-in-out; -moz-transition: all 50ms ease-in-out; -o-transition: all 50ms ease-in-out;
+}
+#ctl00_mainContent_currentResource p {
+	color: rgb(71, 71, 71) !important; padding-right: 30px;
+}
+#ctl00_mainContent_currentResource font {
+	color: rgb(71, 71, 71) !important; padding-right: 30px;
+}
+.calCustomize {
+	background: rgb(0, 96, 65); top: 9px; color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif; font-size: 14px; font-weight: bold;
+}
+.calCustomize:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 102, 102);
+}
+.eventFilter {
+	color: rgb(102, 102, 102); background-color: rgb(204, 204, 204);
+}
+.eventFilter input[type='button']:hover {
+	color: rgb(255, 255, 255);
+}
+#ctl00_mainContent_eventTypesFilter_filterEvents {
+	font-family: "Source Sans Pro", sans-serif; font-weight: bold;
+}
+.calButtonRight {
+	
+}
+.calIcons {
+	
+}
+.calIcons {
+	width: 130px;
+}
+.calUI select {
+	padding: 0px 10px; width: auto !important; height: 40px; color: rgb(255, 255, 255); font-family: "Source Sans Pro", sans-serif; font-size: 14px; font-weight: bold; background-color: rgb(0, 96, 65);
+}
+#ctl00_mainContent_searchLink {
+	top: 10px;
+}
+#ctl00_mainContent_listView_searchLink {
+	top: 10px;
+}
+.calExport {
+	top: 10px;
+}
+#ctl00_mainContent_searchLink {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat 0px -279px;
+}
+#ctl00_mainContent_searchLink:hover {
+	background-position: 0px -304px; cursor: pointer;
+}
+.calExport {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat -25px -279px; left: 40px;
+}
+.calExport:hover {
+	background-position: -25px -304px; cursor: pointer;
+}
+.calViewBtn {
+	background: rgb(0, 96, 65);
+}
+.calViewBtn:hover {
+	background: rgb(102, 102, 102); cursor: pointer;
+}
+.calButtonRight {
+	padding: 10px 0px 10px 10px !important;
+}
+.calIcons {
+	padding: 10px 0px 10px 10px !important;
+}
+.referenceCalendar .eventListingSelectedDay {
+	background: rgb(0, 96, 65);
+}
+.calendarMonthlyView {
+	color: rgb(71, 71, 71);
+}
+.monthlyCalendarMonth {
+	border-collapse: separate !important;
+}
+.monthlyCalendarMonth td {
+	vertical-align: top;
+}
+.monthlyCalendarDayHeader {
+	background: rgb(204, 204, 204); padding: 5px 0px; border: 1px solid rgb(204, 204, 204); color: rgb(102, 102, 102); text-transform: uppercase; font-family: "Source Sans Pro", sans-serif; font-size: 14px; font-weight: bold;
+}
+.monthlyCalendarDay {
+	border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.CalWhiteTbl {
+	border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.monthlyCalendarDay .monthlyCalendarNumber {
+	color: rgb(71, 71, 71);
+}
+.CalWhiteTbl .monthlyCalendarNumber {
+	color: rgb(71, 71, 71);
+}
+:first-child.monthlyCalendarDay {
+	border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid;
+}
+.monthlyCalendarOtherMonthDay {
+	background-color: transparent;
+}
+.CalNotActiveTbl {
+	background-color: transparent;
+}
+.monthlyCalendarOtherMonthDay .monthlyCalendarNumber {
+	color: rgb(102, 102, 102);
+}
+.CalNotActiveTbl .monthlyCalendarNumber {
+	color: rgb(102, 102, 102);
+}
+.monthlyCalendarSelectedDay {
+	color: rgb(255, 255, 255); background-color: rgb(0, 96, 65);
+}
+.CalCurDayTbl {
+	color: rgb(255, 255, 255); background-color: rgb(0, 96, 65);
+}
+.monthlyCalendarSelectedDay .monthlyCalendarNumber {
+	color: rgb(255, 255, 255);
+}
+.monthlyCalendarSelectedDay a {
+	color: rgb(255, 255, 255);
+}
+.CalCurDayTbl {
+	padding: 5px;
+}
+.CalNotActiveTbl {
+	padding: 5px;
+}
+.imageAndTitle {
+	margin-bottom: 8px;
+}
+.imageAndTitle .calTitle {
+	overflow: auto; white-space: normal;
+}
+.calDescription {
+	-ms-word-wrap: break-word;
+}
+.calDescription span {
+	color: rgb(71, 71, 71) !important; font-size: 11px;
+}
+.popupContent iframe {
+	width: 400px !important; height: 400px !important;
+}
+.summaryListItem {
+	background: rgb(204, 204, 204); margin: 10px 0px; padding: 10px; border: 0px currentColor;
+}
+.summaryListItem:hover {
+	background: rgb(179, 179, 179);
+}
+.summaryListItem a {
+	color: rgb(0, 96, 65);
+}
+.summaryListItem a:hover {
+	color: rgb(102, 102, 102);
+}
+:last-child.summaryListItem {
+	margin-bottom: 0px;
+}
+.resourceDescriptionPanel {
+	color: rgb(20, 20, 20);
+}
+.summaryListBullet {
+	background: rgb(0, 0, 0); left: 0px; top: 10px; width: 5px; height: 5px; margin-right: 10px; float: left; display: none; position: relative;
+}
+#ctl00_mainContent_folderDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_siteDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_classDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_groupDirectory_searchPanel {
+	margin: 30px 30px 30px 0px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_siteDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_classDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_groupDirectory_searchPanel input[type='text'] {
+	min-width: 300px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_siteDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_classDirectory_searchPanel label {
+	display: none;
+}
+#ctl00_mainContent_groupDirectory_searchPanel label {
+	display: none;
+}
+.itemList {
+	margin: 10px 0px;
+}
+#ctl00_mainContent_userDirectory_users {
+	background: rgb(204, 204, 204);
+}
+.directoryItem {
+	background: rgb(204, 204, 204); margin: 5px; padding: 10px; border: 0px currentColor;
+}
+.directoryItem:hover {
+	background: rgb(179, 179, 179);
+}
+.directoryItem a:hover {
+	color: rgb(0, 96, 65);
+}
+td.directoryItem {
+	border: 0px currentColor; width: 33%;
+}
+#ctl00_mainContent_blogDirectory_ctl00_blogSearchLabel {
+	
+}
+.color-mpc {
+	background-color: transparent !important;
+}
+.box-ac .box {
+	background-color: transparent !important;
+}
+.box-mpc .box {
+	background-color: transparent !important;
+}
+.color-mpc a {
+	color: rgb(0, 96, 65);
+}
+.box-ac .box a {
+	color: rgb(0, 96, 65);
+}
+.box-mpc .box a {
+	color: rgb(0, 96, 65);
+}
+.color-mpc a:hover {
+	color: rgb(102, 102, 102);
+}
+.box-ac .box a:hover {
+	color: rgb(102, 102, 102);
+}
+.box-mpc .box a:hover {
+	color: rgb(102, 102, 102);
+}
+.msButton {
+	height: auto !important;
+}
+.searchResultsMainTable td {
+	padding: 10px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid {
+	margin: 20px 0px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid tr {
+	background-color: transparent !important;
+}
+#ctl00_mainContent_siteDirectory_siteGrid th {
+	text-align: left; font-weight: bold;
+}
+.listViewHeader {
+	margin: 0px auto; width: 70%; text-align: center;
+}
+.listViewHeader span {
+	margin: 0px 10px; font-weight: bold;
+}
+.listViewHeader input[type='image'] {
+	margin: 8px 5px;
+}
+.calListDayContainer {
+	padding: 20px 0px; border-bottom-color: rgba(255, 255, 255, 0.2); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.calendarCustomize {
+	padding: 30px;
+}
+table {
+	
+}
+table tr th {
+	padding: 0px; font-size: 14px;
+}
+table tr td {
+	padding: 0px; font-size: 14px;
+}
+.eventTypesFilter table {
+	margin: 10px 0px;
+}
+.eventTypesFilter div {
+	margin: 10px 0px;
+}
+.eventTypesFilter center {
+	text-align: left;
+}
+.eventTypesFilter center input {
+	cursor: pointer;
+}
+.itemList {
+	margin: 10px 0px;
+}
+#ctl00_mainContent_facultyStaffDirectory_searchPanel input[type='text'] {
+	margin-left: 10px;
+}
+.classNoResults {
+	
+}
+#ctl00_mainContent_facultyStaffDirectory .template {
+	color: rgb(71, 71, 71);
+}
+#ctl00_mainContent_classDirectory .template {
+	color: rgb(71, 71, 71);
+}
+#ctl00_mainContent_groupListing .template {
+	color: rgb(71, 71, 71);
+}
+#ctl00_mainContent_calendarDirectory .template {
+	color: rgb(71, 71, 71);
+}
+#ctl00_mainContent_pfRegistration_dlRegistration .template {
+	color: rgb(71, 71, 71);
+}
+#ctl00_mainContent_siteDirectory_categoryPanel .quickList img {
+	display: none;
+}
+#ctl00_mainContent_classDirectory .box {
+	background-color: transparent !important;
+}
+.color-mpc {
+	background-color: transparent !important;
+}
+.box-ac .box {
+	background-color: transparent !important;
+}
+.box-mpc .box {
+	background-color: transparent !important;
+}
+.directoryItem {
+	color: rgb(71, 71, 71);
+}
+.directoryItem a {
+	color: rgb(71, 71, 71);
+}
+.directoryItem a:hover {
+	color: rgb(0, 96, 65);
+}
+.msButton {
+	height: auto !important;
+}
+.searchResultsMainTable td {
+	padding: 10px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid {
+	margin: 20px 0px 0px;
+}
+#ctl00_mainContent_siteDirectory_siteGrid tr {
+	background-color: transparent !important;
+}
+#ctl00_mainContent_siteDirectory_siteGrid th {
+	font-weight: bold;
+}
+.forgotPassHeader {
+	margin: 20px 0px 5px; font-size: 18px; font-weight: bold;
+}
+.forgotPassForm td {
+	padding: 5px;
+}
+.forgotPassForm a {
+	margin: 10px 0px; width: 95px;
+}
+.forgotPassForm a::before {
+	content: "Submit";
+}
+.parentRegForm h2 {
+	margin: 30px 0px 10px !important;
+}
+.parentRegForm td[align='center'] {
+	text-align: left !important;
+}
+.parentRegForm {
+	margin-top: 30px;
+}
+.parentRegForm input[type='button'] {
+	height: auto !important;
+}
+.parentRegForm .button {
+	height: auto !important;
+}
+#ctl00_mainContent_pfRegistration_dlRegistration .box {
+	color: rgb(71, 71, 71) !important; background-color: transparent;
+}
+.contactUsForm td {
+	vertical-align: top;
+}
+.contactUsForm .button {
+	display: inline-block;
+}
+.contactUsForm input {
+	margin: 5px 0px;
+}
+.contactUsForm img {
+	display: none;
+}
+#ctl00_mainContent_currentUserProfile_ctl01_biography font {
+	color: rgb(71, 71, 71) !important; font-size: 16px !important;
+}
+.surveyTable {
+	
+}
+input.txtBox {
+	margin-left: 0px;
+}
+#header {
+	margin: 0px auto 14px;
+}
+#header-top {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_top_bg.jpg") repeat-x rgb(0, 58, 34); margin: 0px; padding: 12px 0px; width: 100%;
+}
+#header-top h1 {
+	margin: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px; letter-spacing: 1px; font-family: "Crimson Text", serif; font-size: 24px; font-weight: normal; float: left; text-shadow: 1px 2px rgba(0,0,0,0.85);
+}
+#logo {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat; margin: 0px 8px 0px 0px; padding: 0px; width: 137px; height: 52px; text-indent: -9999px; float: left;
+}
+#desktop-motto {
+	color: rgb(255, 255, 255); letter-spacing: 0px; clear: both; font-family: "Crimson Text", serif; font-size: 14px; font-style: italic; font-weight: bold; display: block; text-shadow: 1px 2px rgba(0,0,0,0.85);
+}
+#mobile-motto {
+	color: rgb(255, 255, 255); letter-spacing: 0px; clear: both; font-family: "Crimson Text", serif; font-size: 14px; font-style: italic; font-weight: bold; display: block; text-shadow: 1px 2px rgba(0,0,0,0.85);
+}
+#mobile-motto {
+	display: none;
+}
+#quick-links {
+	list-style: none; margin: 0px; padding: 0px; float: right;
+}
+#quick-links li {
+	text-align: center; text-transform: uppercase; font-family: "Source Sans Pro", sans-serif; font-size: 11px; font-weight: normal; margin-left: 16px; float: left; text-shadow: 1px 2px rgba(0,0,0,0.85);
+}
+#quick-links li a {
+	color: rgb(255, 255, 255); font-weight: normal; text-decoration: none; text-shadow: 1px 2px rgba(0,0,0,0.85);
+}
+#quick-links li a:hover {
+	transition:0.2s ease-in-out; color: rgb(153, 153, 153); text-decoration: none; -webkit-transition: all ease-in-out 0.2s; -moz-transition: all ease-in-out 0.2s; -o-transition: all ease-in-out 0.2s;
+}
+.qlink i {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat; margin: 0px auto 2px; padding: 0px; height: 30px; display: block;
+}
+.why.qlink i {
+	background-position: 0px -53px; width: 29px;
+}
+.home.qlink i {
+	background-position: -33px -53px; width: 30px;
+}
+.login.qlink i {
+	background-position: -64px -53px; width: 27px;
+}
+.help.qlink i {
+	background-position: -92px -53px; width: 28px;
+}
+.search.qlink i {
+	background-position: -121px -53px; width: 30px;
+}
+.trans.qlink i {
+	background-position: -152px -53px; width: 30px;
+}
+.twit.qlink i {
+	background-position: -183px -53px; width: 34px;
+}
+.trans.qlink {
+	width: 60px; min-height: 52px;
+}
+.goog-te-gadget-simple {
+	border: 0px currentColor !important;
+}
+.goog-te-gadget-icon {
+	display: none;
+}
+.goog-te-gadget-simple a.goog-te-menu-value {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat -153px -53px; margin: 0px auto; width: 30px; height: 30px; text-indent: -9999px; display: block; position: relative;
+}
+.goog-te-gadget-simple a.goog-te-menu-value::after {
+	left: -11px; top: 31px; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; text-indent: 0px; font-family: "Source Sans Pro", sans-serif; font-size: 11px; display: block; position: absolute; content: "Translate";
+}
+#header nav {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; width: 100%; min-height: 38px;
+}
+#header #nav {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; width: 100%; min-height: 38px;
+}
+.top-bar {
+	background: rgb(255, 255, 255) !important; height: 38px; line-height: 38px; margin-bottom: 0px;
+}
+.top-bar .title-area {
+	margin: 0px; padding: 0px;
+}
+.expanded.top-bar .title-area {
+	background: rgb(204, 204, 204);
+}
+.top-bar-section ul {
+	background: rgb(255, 255, 255); padding: 0px;
+}
+.top-bar-section .has-dropdown > a::after {
+	border-color: rgb(0, 96, 65) transparent transparent; margin-right: 12px;
+}
+.top-bar .menu-icon.toggle-topbar a {
+	color: rgb(0, 96, 65);
+}
+.top-bar .menu-icon.toggle-topbar a span {
+	box-shadow: 0px 10px 0px 1px #006041, 0px 16px 0px 1px #006041, 0px 22px 0px 1px #006041; -webkit-box-shadow: 0 10px 0 1px #006041, 0 16px 0 1px #006041, 0 22px 0 1px #006041;
+}
+.top-bar-section li a:not(.button) {
+	background: rgb(255, 255, 255); padding: 0px 7px; text-transform: uppercase; line-height: 38px;
+}
+.top-bar-section li a:not(.button):hover {
+	background: rgb(204, 204, 204);
+}
+.top-bar-section ul.dropdown {
+	margin: 0px; padding: 0px;
+}
+.top-bar-section .dropdown li a {
+	padding: 6px; color: rgb(0, 96, 65); line-height: 14px; font-size: 12px; font-weight: bold;
+}
+.top-bar-section ul li > a {
+	background: rgb(255, 255, 255); color: rgb(0, 96, 65); text-transform: uppercase; text-decoration: none;
+}
+.top-bar-section ul li > a:hover {
+	background: rgb(204, 204, 204);
+}
+.top-bar .toggle-topbar a {
+	height: 38px; line-height: 38px;
+}
+.top-bar .name {
+	width: 4px; height: 38px;
+}
+.top-bar-section .dropdown label {
+	padding: 7px 14px 2px 7px; color: rgb(102, 102, 102);
+}
+.top-bar-section .dropdown li.title h5 a {
+	color: rgb(0, 96, 65); padding-left: 0px; font-family: "Source Sans Pro", sans-serif; font-size: 16px; text-decoration: none;
+}
+.top-bar li a center {
+	text-align: left !important;
+}
+.top-bar-section .dropdown label {
+	background: rgb(255, 255, 255); margin: 0px 0px 6px; padding: 0px !important; color: rgb(102, 102, 102); display: block;
+}
+.top-bar-section .dropdown label a {
+	padding: 0px !important; color: rgb(102, 102, 102); font-size: 14px; text-decoration: none;
+}
+.top-bar .name h1 a {
+	text-decoration: none;
+}
+.top-bar ul {
+	font-size: 15px !important;
+}
+.custom-footer {
+	width: 100%; color: rgb(71, 71, 71); font-size: 11px; position: relative;
+}
+.custom-footer p {
+	font-family: "Source Sans Pro", sans-serif; margin-bottom: 10px;
+}
+.custom-footer .small {
+	text-align: justify; line-height: 12px; font-size: 9px;
+}
+.custom-footer p:last-child {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+.custom-footer a {
+	color: rgb(71, 71, 71); font-weight: normal; text-decoration: underline;
+}
+.custom-footer a:hover {
+	color: rgb(0, 96, 65); text-decoration: none;
+}
+.GrayItlTxt {
+	color: rgb(170, 170, 170); padding-top: 20px; clear: both !important; font-size: 13px; font-style: italic; font-weight: bold;
+}
+.resourceBody {
+	font-family: "Crimson Text", serif;
+}
+em {
+	font-style: italic !important;
+}
+#echalk-logo {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//echalk.png") no-repeat; margin: 0px 0px 5px 10px; padding: 0px; width: 145px; height: 25px; text-indent: -9999px; float: right;
+}
+#ctl00_mainContent_ucGroupProfile_ctl04_body .headingBullet h3 {
+	color: rgb(0, 96, 65); font-family: "Source Sans Pro", sans-serif; font-size: 14px; font-weight: bold;
+}
+#ctl00_mainContent_ucGroupProfile_ctl04_body td.text {
+	padding-bottom: 10px;
+}
+#ctl00_mainContent_ucGroupProfile_ctl04_body td.text .contentImg {
+	margin: 4px 3px 0px 0px; display: inline-block; max-height: 18px; max-width: 18px;
+}
+.urgenticon {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//urgenticon.png") no-repeat; width: 16px; height: 16px; margin-right: 3px; display: inline-block;
+}
+.directionsHeader h2 {
+	color: rgb(0, 96, 65) !important; padding-left: 10px;
+}
+.directionsForm input {
+	margin: 10px 0px 0px !important;
+}
+#btnShowDirections {
+	margin-right: 7px !important;
+}
+#ctl00_mainContent_addFeed_hdFeedHeader {
+	margin: 20px 0px 10px;
+}
+#ctl00_mainContent_addFeed_hdSubscribeHeader {
+	margin: 20px 0px 10px;
+}
+.newnavitem {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//newindicator.png") no-repeat; width: 27px; height: 12px; margin-left: 4px; display: inline-block;
+}
+.subItem .icon-new {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//newindicator.png") no-repeat; padding: 0px; width: 27px; height: 12px; text-indent: -9999px; margin-left: 4px; display: inline-block;
+}
+table tr.even {
+	
+}
+table tr.alt {
+	
+}
+table tr:nth-of-type(2n) {
+	
+}
+select {
+	width: auto;
+}
+#monthSelector {
+	width: auto;
+}
+#yearSelector {
+	width: auto;
+}
+@media only screen and (min-width:58.75em)
+{
+.top-bar-section .has-dropdown > a {
+	padding-right: 26px !important;
+}
+.top-bar-section .dropdown li label {
+	background: rgb(255, 255, 255);
+}
+.top-bar-section .has-dropdown > a::after {
+	margin-top: -3px;
+}
+.edge.has-dropdown > ul {
+	left: auto; text-align: right; right: 0px;
+}
+.pos_right {
+	left: auto !important; right: 0px; float: right;
+}
+.pos_left {
+	left: 0px; right: auto !important; float: left;
+}
+.top-bar-section .dropdown {
+	box-shadow: 3px 3px 6px rgba(50,50,50,0.6); -webkit-box-shadow: 3px 3px 6px rgba(50, 50, 50, 0.6); -moz-box-shadow: 3px 3px 6px rgba(50, 50, 50, 0.6);
+}
+}
+@media only screen and (min-width:941px)
+{
+.expanded.top-bar .title-area {
+	background: rgb(255, 255, 255) !important;
+}
+.top-bar-section .dropdown label:first-child {
+	display: none;
+}
+ul.title-area {
+	display: none;
+}
+}
+@media only screen and (max-width:940px)
+{
+.top-bar .name {
+	display: block;
+}
+.top-bar-section li a:not(.button) {
+	padding: 7px; line-height: 22px;
+}
+}
+@media only screen and (max-width:767px)
+{
+#header-top h1 {
+	line-height: 33px; font-size: 16px; margin-bottom: 5px;
+}
+#desktop-motto {
+	display: none;
+}
+#mobile-motto {
+	margin-bottom: 14px; display: block;
+}
+#logo {
+	background: url("http://www.aliefisd.net/www/Alief/site/hosting/cd/img//alief_sprite.png") no-repeat 0% 0% / 160px auto; margin: 0px 5px 0px 0px; width: 88px; height: 33px; text-indent: -9999px;
+}
+.active {
+	display: block;
+}
+.toggleMenu {
+	display: inline-block;
+}
+.sf-menu {
+	display: none;
+}
+.sf-menu li {
+	clear: both;
+}
+#echalk-logo {
+	margin: 0px 0px 10px; float: none;
+}
+.top-bar-section .dropdown label a {
+	font-size: 14px;
+}
+}
+@media only screen and (max-width:1024px)
+{
+.homepage .login {
+	display: none;
+}
+.banner {
+	display: none;
+}
+.homepage .banner {
+	margin-top: 90px; display: block;
+}
+.profile-image {
+	margin: 0px auto; width: 100%; float: none; max-width: 300px;
+}
+.profile-info {
+	width: auto; padding-left: 0px; clear: both; float: none;
+}
+.userProfileTable {
+	clear: both !important; margin-top: 0px; margin-bottom: 30px; margin-left: 0px;
+}
+#ctl00_mainContent_currentUserProfile_biographyPanel {
+	margin-top: 0px !important;
+}
+#ctl00_mainContent_currentUserProfile_groupsPanel {
+	margin-top: 0px !important;
+}
+}
+@media only screen and (max-width:600px)
+{
+.content-2 {
+	width: 100%; float: none !important;
+}
+.content-3 {
+	width: 100%; float: none !important;
+}
+.content-4 {
+	width: 100%; float: none !important;
+}
+.content-2 {
+	margin: 20px 0px;
+}
+.wrapper {
+	min-width: 0px;
+}
+.calUI {
+	margin: 0px; width: 300px; text-align: left; bottom: 0px; min-width: 220px;
+}
+.calButtonLeft {
+	float: none;
+}
+.calButtonRight {
+	width: 150px; text-align: left; clear: both; float: none;
+}
+.calIcons {
+	width: 150px; text-align: left; clear: both; float: none;
+}
+#ctl00_mainContent_searchLink {
+	left: 0px;
+}
+.calViewBtn {
+	margin-left: 22px;
+}
+.calExport {
+	display: none;
+}
+}

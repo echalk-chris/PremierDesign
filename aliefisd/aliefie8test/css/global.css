@@ -1,0 +1,1169 @@
+.center-ic16 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+/** NEW CLEARFIX 
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.cf:after {
+  clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+/* utility classes -uc 
+
+====================== */
+.hide-scroll {
+  overflow: hidden;
+}
+.scrollMe {
+  overflow: auto !important;
+}
+.hide-text {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  /* Make inputs at least the height of their button counterpart */
+
+  /* Makes inputs behave like true block-level elements */
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/**
+ *  @FIXME 
+ *  @TODO   
+ *      ADD DESCRIPTION
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /*margin: 0;
+   	padding: 0;
+   	border: 0;
+   font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   	-webkit-font-smoothing: antialiased;*/
+
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  /*-webkit-font-smoothing: antialiased;*/
+
+}
+/*body {
+   	-webkit-font-smoothing: antialiased;
+   	-webkit-text-size-adjust: 100%;
+   }*/
+ol,
+ul {
+  /*list-style: none;*/
+
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* additional resets */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*content area make posittion relative by default for positioning purposes */
+.cc-area,
+.wrapper,
+.content,
+.mainContent,
+.custom-layout {
+  position: relative;
+}
+/* GLOBAL STYLES 
+
+==================
+
+login -lg
+base form elements -bf
+button styles -bs
+main navigation -mn
+horizontal navigation -hn
+utility nav -un
+prompt style -ps
+upcoming events -ue
+
+
+** SUBPAGE STYLES **
+general subpage style -gsb
+breadcrumbs -bc
+PROFILE PAGES -pro
+calendar -cal
+directories / listing - dir
+
+weather -we
+layout manager -lm
+
+================== */
+/* remove old stylesheet */
+link[href*="css.axd"] {
+  display: none;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+body h1 {
+  font-size: 1.618em;
+  font-weight: 500;
+}
+body a {
+  cursor: pointer;
+}
+body a:hover {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+body hr {
+  display: none;
+}
+body strong {
+  font-weight: bold;
+}
+.homepage .wrapper,
+.wrapper {
+  z-index: 10;
+}
+/* login -lg 
+
+====================== */
+.login fieldset {
+  display: block;
+  margin: 5px 0 0 0;
+}
+.login .forgotPasswordLink,
+.login .loginLinks {
+  margin: 10px 0;
+}
+.homepage .login label {
+  display: inline-block;
+  min-width: 80px;
+}
+.homepage .login .loginButton {
+  display: block;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 10px 0 0 0;
+}
+.homepage .login .loginButton:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/* base form elements -bf */
+input[type="text"],
+input[type="password"] {
+  margin: 0 10px 0 0;
+  padding: 4px 5px;
+  min-width: 200px;
+  font-size: 14px;
+}
+input.txtBox {
+  width: 500px;
+  height: 30px;
+  margin-left: 10px;
+  border: none;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) inset;
+}
+/* button styles -bs */
+.loginButton,
+.goButton {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1em;
+  padding: 8px 10px;
+  font-weight: normal;
+  border: none;
+  margin: 0 0 0 10px;
+}
+.loginButton:hover,
+.goButton:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+input[type="button"],
+.button,
+.backLink a {
+  display: block;
+  cursor: pointer;
+}
+input[type="button"],
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 0;
+}
+input[type="button"]:hover,
+.button:hover {
+  -webkit-transition: all 50ms ease-in-out;
+  -moz-transition: all 50ms ease-in-out;
+  -ms-transition: all 50ms ease-in-out;
+  -o-transition: all 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
+}
+.backLink {
+  clear: both;
+  width: auto;
+  min-width: 200px;
+  max-width: 300px;
+  position: absolute;
+  bottom: 25px;
+}
+.backLink a {
+  margin: 40px auto;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.backLink a:hover {
+  -webkit-transition: all 50ms ease-in-out;
+  -moz-transition: all 50ms ease-in-out;
+  -ms-transition: all 50ms ease-in-out;
+  -o-transition: all 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
+}
+/* main navigation -mn */
+.navRpt table {
+  position: relative;
+}
+/* horizontal navigation -hn */
+.cm_TopItem,
+.cm_TopItemHover,
+.cm_Item,
+.cm_ItemHover,
+.cm_TopItemActive,
+.cm_ItemActive {
+  cursor: pointer;
+  text-align: center;
+}
+.cm_TopItem div,
+.cm_TopItemHover div,
+.cm_Item div,
+.cm_ItemHover div,
+.cm_TopItemActive div,
+.cm_ItemActive div {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+.cm_Item,
+.cm_ItemHover,
+.cm_ItemActive {
+  text-align: left;
+}
+/* nav plugin -nav */
+#container {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  display: none;
+}
+#container h1 {
+  display: none;
+}
+/*ul#menulist {
+	margin: 0 auto;
+	a, a:link, a:visited {	
+
+		display: block;
+		min-height: 50px;
+		padding: 0 20px;
+		float: left;
+		line-height: 50px;
+		text-decoration: none;
+		border-right: solid 1px lighten(@primary, 5%);
+		position: relative;
+		white-space: nowrap;
+		&:hover, &:active {
+			background-color: darken(@primary, 5%);
+
+		}
+	}
+	a.active, a.active:link, a.active:visited {
+		background: darken(@primary, 5%);			
+	}
+	#dropdown {
+		li {
+			display:block;
+			border-bottom:1px solid lighten(@primary, 5%);
+		}
+		a {
+			width:100%;	
+			border-right:none !important;	
+		}
+		margin: 0 auto;
+		border-top: none;
+		display: none;
+		position: absolute;
+		left:0;
+		top:100%;
+		overflow: hidden;
+		background-color: @primary;
+		.box-shadow(0 2px 3px black);
+	}
+
+}
+li.menu {
+	float: left;
+	height:50px;
+	position:relative;
+}
+nav ul li a span {
+	color: #ccc;
+	font-size: 11px;
+}
+
+nav ul li a.active span {
+	color: #fff;
+	font-size: 11px;
+}
+#ajax {
+	padding: 20px;
+}
+
+#ajax h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #bbb;
+}
+
+.loading {
+}
+
+#main {
+	padding: 20px 0 0 0;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display:none;
+}
+
+#ajax ul {
+	float: left;
+	width: 300px;
+	padding: 0 30px 0 0;
+}
+
+#ajax ul li {
+	padding: 3px 0;
+}
+
+footer p {
+	text-align: center;
+	}*/
+/* end navigation plugin styles */
+/* utility nav -un */
+.utilityNav {
+  background-color: transparent;
+}
+.utilityNav ul {
+  display: block;
+}
+.utilityNav ul li {
+  display: block;
+}
+.utilityNav ul li a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.utilityNav ul li a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* prompt styles -ps */
+.promptStyle {
+  padding: 20px;
+}
+.promptStyle input[type="button"],
+.promptStyle .button {
+  margin: 10px 0 10px 0;
+}
+/* upcoming events -ue 
+
+====================== */
+.ueEventType {
+  padding: 5px;
+  font-size: 11px;
+}
+.upcomingEventDay {
+  padding-top: 15px;
+}
+.upcomingEvent {
+  position: relative;
+}
+.upcomingEvent .ueContent img {
+  /* hiding old icons in upcoming events */
+
+  display: none;
+}
+.upcomingEvent .ueContent .ueTitle {
+  font-weight: bold;
+}
+.upcomingEvent .ueContent .ueTime {
+  font-size: 18px;
+  font-weight: 500;
+}
+.upcomingEvent .ueContent .ueDescription {
+  font-size: 12px;
+  font-weight: 400;
+}
+/* today's date and view monthly calendar link */
+.upcomingEventsFooter {
+  /* today's date */
+
+  /* view monthly calendar link */
+
+}
+.upcomingEventsFooter p {
+  margin: 0;
+  padding: 0;
+}
+/* GLOBAL SUBPAGE STYLES - gsb */
+/* breadcrumbs -bc */
+.breadCrumbs {
+  width: 100%;
+  /* #translucent > .background(@black, .1) !important; */
+
+}
+.breadCrumbs a {
+  text-decoration: none;
+}
+/* PROFILE PAGES - pro
+
+=========================== */
+/* shared profile content panel styles */
+#ctl00_mainContent_currentUserProfile_classesPanel,
+#ctl00_mainContent_currentUserProfile_groupsPanel,
+#ctl00_mainContent_currentUserProfile_linksPanel,
+#ctl00_mainContent_currentUserProfile_biographyPanel,
+#ctl00_mainContent_currentUserProfile_messagePanel,
+#ctl00_mainContent_ucClassProfile_profilePanel,
+#ctl00_mainContent_ucClassProfile_announcePanel,
+#ctl00_mainContent_ucClassProfile_workeventsPanel,
+#ctl00_mainContent_ucClassProfile_taughtByPanel,
+#ctl00_mainContent_ucClassProfile_resourcesPanel,
+#ctl00_mainContent_ucGroupProfile_workeventsPanel,
+#ctl00_mainContent_ucGroupProfile_ContactsPanel,
+#ctl00_mainContent_ucGroupProfile_announcePanel {
+  margin: 30px 0 20px 0;
+  /*width:100%;*/
+
+  padding: 0 10px;
+}
+.profile-image {
+  float: left;
+  margin-top: 30px;
+  width: 20%;
+}
+.profile-info {
+  position: relative;
+  float: left;
+  clear: right;
+  /*max-height:200px;*/
+
+  padding-left: 20px;
+  font-size: 16px;
+  margin-top: 30px;
+  width: 20%;
+}
+.profile-info > div {
+  min-width: 200px;
+}
+.profile-info h3 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #808080;
+  font-size: 14px;
+  font-weight: normal;
+}
+.userProfileTable td {
+  vertical-align: top;
+}
+.userProfileName {
+  font-size: 36px;
+  line-height: 1.16em;
+  font-weight: bold;
+}
+.userProfileType {
+  font-size: 24px;
+}
+.userProfileType br {
+  display: none;
+}
+/* calendar -cal 
+
+======================= */
+.calBodyWrapper {
+  width: 100%;
+}
+.calCustomize {
+  display: block;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  float: left;
+}
+.calCustomize:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.eventFilter {
+  z-index: 500;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66);
+  padding: 10px;
+  color: #ffffff;
+}
+.eventFilter center {
+  text-align: left;
+}
+.eventFilter td {
+  padding: 5px 0px;
+}
+.eventFilter input[type="button"] {
+  padding: 5px;
+  margin: 5px 0 0 0;
+  text-decoration: none;
+}
+.eventFilter input[type="button"]:hover {
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.calButtonRight,
+.calIcons {
+  padding: 10px;
+}
+.calIcons {
+  width: 130px;
+}
+.calUI {
+  position: relative;
+  bottom: 35px;
+  z-index: 500;
+  background: none;
+  margin: 0 auto;
+  width: 280px;
+  text-align: center;
+}
+.calUI select {
+  display: inline-block;
+  padding: 10px 20px 10px 25px;
+  border: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-image: url('http://school.echalk.com/www/school/site/hosting/jeremytest/img/icons16w.png');
+  background-repeat: no-repeat;
+  background-position: 4px -96px;
+}
+#ctl00_mainContent_searchLink,
+#ctl00_mainContent_listView_searchLink,
+.calExport {
+  position: absolute;
+  top: 7px;
+  background-image: url('http://school.echalk.com/www/school/site/hosting/jeremytest/img/ic-crisp-16.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+#ctl00_mainContent_searchLink img,
+#ctl00_mainContent_listView_searchLink img,
+.calExport img {
+  display: none;
+}
+#ctl00_mainContent_searchLink,
+#ctl00_mainContent_listView_searchLink {
+  left: auto;
+  margin-right: 20px;
+  background-position: -272px -77px;
+}
+.calButtonLeft {
+  float: left;
+}
+.calExport {
+  left: 40px;
+  background-position: -363px -238px;
+}
+.calButtonRight,
+.calIcons {
+  position: relative;
+  top: 5px;
+  text-align: right;
+  float: right;
+  width: 150px;
+}
+.calButtonRight input[type="button"],
+.calIcons input[type="button"] {
+  margin: 40px 0 40px 0px;
+  display: block;
+  padding: 10px 20px;
+  background: #046;
+  text-decoration: none;
+  border: 0;
+  width: 32px;
+  height: 32px;
+}
+.calView,
+.calIconSeparate,
+#ctl00_mainContent_printView,
+#ctl00_mainContent_listView_printView {
+  display: none;
+}
+.referenceCalendar {
+  padding: 5px 0 30px 0;
+}
+.referenceCalendar table {
+  margin: 0 auto;
+  min-width: 300px;
+}
+.referenceCalendar table td {
+  text-align: center;
+}
+.referenceCalendar .eventListingSelectedDay {
+  border: 0;
+}
+/* calendar search panel */
+.searchPanel {
+  padding: 10px;
+  text-shadow: none;
+}
+.searchPanel .searchPanelHeader {
+  display: none;
+}
+.searchPanel input[type="text"] {
+  padding: 8px 10px;
+  width: 100% !important;
+}
+.searchPanel input[type="button"] {
+  margin: 10px 10px 0 0;
+}
+/* begin grid calendar */
+.calendarMonthlyView {
+  width: 100%;
+  background-color: transparent;
+}
+.calendarMonthlyView > table {
+  clear: both;
+}
+.calendarMonthlyView table {
+  width: 100%;
+}
+.monthlyCalendar {
+  width: 100%;
+}
+.monthlyCalendarMonth {
+  width: 100%;
+}
+.monthlyCalendarMonth td {
+  height: 150px;
+  position: relative;
+  width: 14%;
+  max-width: 100px;
+}
+.monthlyCalendarMonth td.monthlyCalendarDayHeader {
+  height: auto;
+}
+.monthlyCalendarDayHeader {
+  font-size: 11px;
+  text-align: center;
+}
+.monthlyCalendarDay,
+.CalWhiteTbl {
+  padding: 5px;
+}
+.monthlyCalendarOtherMonthDay,
+.CalNotActiveTbl {
+  height: 100px;
+  vertical-align: top;
+}
+.imageAndTitle .calTitle {
+  font-size: 11px;
+  line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.imageAndTitle img {
+  width: 16px !important;
+  height: 16px;
+}
+.calGridEvent {
+  padding: 5px;
+}
+.calEventType {
+  text-indent: -99999px;
+  height: 5px;
+}
+.calDescription span {
+  font-size: 11px;
+}
+/* calendar list view */
+.listViewSideBar {
+  width: 40%;
+}
+.listViewHeader span {
+  margin: 0 10px;
+}
+.listViewHeader input[type="image"] {
+  margin: 8px 5px;
+}
+.calListDayContainer {
+  padding: 20px 0;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+.calendarCustomize {
+  padding: 30px;
+}
+.eventTypesFilter table,
+.eventTypesFilter div {
+  margin: 10px 0;
+}
+.eventTypesFilter center {
+  text-align: left;
+}
+.eventTypesFilter center input {
+  cursor: pointer;
+}
+/* directories / listing - dir 
+
+=========================== */
+.summaryListItem span {
+  display: block;
+}
+.resourceDescriptionPanel {
+  /*font size
+	color*/
+
+}
+.summaryListBullet {
+  display: none;
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  /*background: darken(@primary, 20%);*/
+
+  margin-right: 10px;
+}
+/*hide unused bullet (>)*/
+.summaryListBullet2 {
+  display: none;
+}
+.quickList li:first-child {
+  padding-left: 0;
+}
+.quickList li {
+  padding: 10px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel,
+#ctl00_mainContent_siteDirectory_searchPanel,
+#ctl00_mainContent_facultyStaffDirectory_searchPanel,
+#ctl00_mainContent_classDirectory_searchPanel,
+#ctl00_mainContent_groupDirectory_searchPanel {
+  margin: 30px 30px 30px 0;
+}
+#ctl00_mainContent_folderDirectory_searchPanel input[type="text"],
+#ctl00_mainContent_siteDirectory_searchPanel input[type="text"],
+#ctl00_mainContent_facultyStaffDirectory_searchPanel input[type="text"],
+#ctl00_mainContent_classDirectory_searchPanel input[type="text"],
+#ctl00_mainContent_groupDirectory_searchPanel input[type="text"] {
+  min-width: 300px;
+}
+#ctl00_mainContent_folderDirectory_searchPanel label,
+#ctl00_mainContent_siteDirectory_searchPanel label,
+#ctl00_mainContent_facultyStaffDirectory_searchPanel label,
+#ctl00_mainContent_classDirectory_searchPanel label,
+#ctl00_mainContent_groupDirectory_searchPanel label {
+  display: none;
+}
+.itemList {
+  margin: 10px 0;
+}
+#ctl00_mainContent_subjectDirectory_classList td {
+  vertical-align: top;
+  min-height: 100px;
+}
+.directoryItem {
+  height: 100%;
+  /*DE6773*/
+
+}
+.directoryItem > div {
+  float: none !important;
+}
+/* faculty directory */
+/* group directory */
+.groupDirItem {
+  margin: 20px 0;
+}
+/* directory search results */
+#ctl00_mainContent_blogDirectory_ctl00_blogSearchLabel {
+  /*color:@darkFont;*/
+
+}
+.color-mpc,
+.box-ac .box,
+.box-mpc .box {
+  background-color: transparent !important;
+}
+/* directory search results */
+/* site directory */
+#ctl00_mainContent_siteDirectory_directoryContent {
+  clear: both;
+}
+/* search page / search results */
+.gsc-results {
+  padding: 30px 0;
+}
+#ecSearchResults {
+  margin: 30px 0;
+}
+#ecSearchResults table tr {
+  background-color: transparent !important;
+}
+#ecSearchResults table th {
+  min-width: 150px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left !important;
+}
+#ecSearchResults table th a {
+  color: #ffffff;
+}
+#ecSearchResults table th img {
+  float: left;
+  margin: 5px 10px 0 0;
+}
+#ecSearchResults table td {
+  padding: 10px 10px 10px 0;
+  /*border-bottom: 1px solid lighten(@primary, 10%);*/
+
+}
+/*temp styles to overwrite RTE styles */
+#ctl00_mainContent_currentUserProfile_ctl01_biography font {
+  /*color:@lightFont !important;*/
+
+  font-size: 16px !important;
+}
+.msButton {
+  height: auto !important;
+}
+.searchResultsMainTable td {
+  padding: 10px 0;
+}
+/* site directory search results */
+#ctl00_mainContent_siteDirectory_siteGrid {
+  margin: 20px 0 0 0;
+}
+#ctl00_mainContent_siteDirectory_siteGrid tr {
+  background-color: transparent !important;
+}
+#ctl00_mainContent_siteDirectory_siteGrid th {
+  font-weight: bold;
+  text-align: left;
+}
+/* weather -we */
+#weatherVert,
+#weatherHoriz,
+.weatherContainer {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+td.weatherDay {
+  width: 50px;
+}
+.weatherOutlook {
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.weatherDay span {
+  display: block;
+}
+.weatherHigh,
+.weatherLow {
+  font-weight: bold;
+}
+.weatherHigh {
+  color: #c00;
+}
+.weatherLow {
+  color: #06f;
+}
+.weatherDate {
+  white-space: nowrap;
+}
+/* directions / location */
+.directionsForm input {
+  display: inline-block !important;
+  margin: 10px !important;
+}
+/* layout manager -lm */.layoutManager.toolbar {
+  position: absolute;
+}
+#webPartEditMenu,
+#debugOptions,
+#webPartOverlay,
+#colorDialog {
+  display: none;
+}
+/* global media queries -gq 
+
+============================ */
+@media only screen and (max-width: 1024px) {
+  /*crop the profile image (this is a quick and dirty (shitty) implementation. we need to do this better in jquery or something) */
+  /*.pro-image {
+  		height:200px;
+  		overflow:hidden;
+  	}*/
+  .profile-image {
+    float: none !important;
+    width: 100%;
+    position: relative;
+  }
+  .profile-info {
+    max-height: auto !important;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  .crumbs {
+    overflow-x: auto;
+  }
+  /* remove spell check button for tablets */
+  #ctl00_mainContent_ContactUsPublic_spellCheckingButton_0 {
+    display: none;
+  }
+}

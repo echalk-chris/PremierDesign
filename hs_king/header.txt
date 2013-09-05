@@ -1,0 +1,46 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Foundation -->
+<link rel="stylesheet" href="http://hs.king.echalk.net/www/king_hs/site/hosting/corp/common/css/normalize.css" />
+<link rel="stylesheet" href="http://hs.king.echalk.net/www/king_hs/site/hosting/corp/common/css/foundation.mod.css" />
+
+<!-- Custom Styles -->
+<link rel="stylesheet" type="text/css" href="http://hs.king.echalk.net/www/king_hs/site/hosting/pd/css/template.css">
+
+<style type="text/css">
+.navalignleft {
+float: left !important;
+}
+</style>
+
+<!-- Google Web Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
+<![endif]-->
+<!--[if gte IE 9]>
+	<script src="http://hs.king.echalk.net/www/king_hs/site/hosting/corp/common/js/vendor/custom.modernizr.js"></script>
+<![endif]-->
+
+<!-- for Internet Explorer -->
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="http://hs.king.echalk.net/www/king_hs/site/hosting/pd/css/global-ie.css" />
+<script src="http://static3cdn.echalk.net//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script>window.html5 || document.write('<script src="http://hs.king.echalk.net/www/king_hs/site/hosting/corp/common/js/html5shiv.js"><\/script>')</script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script type="text/javascript" src="http://hs.king.echalk.net/www/king_hs/site/hosting/corp/common/js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script>
+var pathname = window.location.pathname;
+if(pathname.indexOf("intranet") == -1 && pathname.indexOf("home") > -1) {
+	window.location.replace("http://hs.king.echalk.net/www/king_hs/site/hosting/pd/index.html");
+}
+</script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://hs.king.echalk.net/www/king_hs/site/hosting/pd/css/home-ie8-navbar.css">
+<![endif]-->

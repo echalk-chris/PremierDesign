@@ -1,0 +1,14 @@
+//colors
+$primary: #989898;
+$secondary: #CC0000;
+$secondary-dark: darken($secondary, 10%);
+$light: #FFF;
+$dark: #000;
+$medium: #CCC;
+$medium-dark: #666;
+$hilight: #017477;
+
+//mixins
+$top-menu-items: 5;
+$top-menu-item-width: (996px / $top-menu-items);
+

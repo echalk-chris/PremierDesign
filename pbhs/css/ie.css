@@ -1,0 +1,25 @@
+#login {
+	background: url(../img/login_bg.png);
+}
+
+#principal-msg div img {
+	width: 96px;
+	max-width: 96px;
+	height: auto;
+	max-height: 142px;
+}
+
+#google_translate_element {
+	clear: both;
+	float: right;
+	margin: 5px 55px 0 0;
+	display: none;
+}
+
+#google_translate_element:first-child {
+	clear: both;
+	float: right;
+	margin: 5px 55px 0 0;
+	display: none;
+	display: block;
+}

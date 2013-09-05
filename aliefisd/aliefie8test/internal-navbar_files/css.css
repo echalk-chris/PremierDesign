@@ -1,0 +1,1842 @@
+* {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+}
+h4 {
+	margin: 0px;
+}
+hr {
+	margin: 0px;
+}
+body {
+	line-height: normal; letter-spacing: normal; font-family: Arial, Sans-Serif; font-size: 100%; vertical-align: baseline;
+}
+blockquote {
+	margin: 1em 40px;
+}
+p {
+	margin: 1em 0px;
+}
+table.wrapperTable {
+	font-size: 0.75em;
+}
+#previewDiv {
+	font-size: 0.75em;
+}
+fieldset {
+	border: currentColor;
+}
+a img {
+	border: currentColor;
+}
+a:link {
+	border: currentColor; text-decoration: underline;
+}
+a {
+	border: currentColor; text-decoration: underline;
+}
+.topNavigation a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+blockquote::before {
+	content: "";
+}
+blockquote::after {
+	content: "";
+}
+td.leftCol {
+	vertical-align: top;
+}
+td.mainCol {
+	vertical-align: top;
+}
+.wrapper {
+	margin: 0px auto; width: 950px;
+}
+.groupListingPage table td {
+	width: auto !important;
+}
+.subjectListingPage table td {
+	width: auto !important;
+}
+.topNav {
+	font-size: 0.9em; font-weight: bold;
+}
+ul.topNavigation {
+	margin: 0px; padding: 0px;
+}
+html > body span.topNavBullet {
+	top: 2px; position: relative;
+}
+*:first-child + html span.topNavBullet {
+	top: -1px; position: relative;
+}
+.topNavLeft {
+	text-align: left; position: absolute;
+}
+.topNavRight {
+	margin-right: 10px; float: right; _margin-right: 5px;
+}
+.extraRegion {
+	width: 100%; margin-top: 30px;
+}
+.login {
+	width: 17em; text-align: right; margin-right: 10px; display: inline-block; _margin-right: 5px;
+}
+.loginCompact {
+	width: 16em; text-align: left; display: inline-block;
+}
+.loginCompact .loginLinks {
+	text-align: left; margin-top: 3px;
+}
+.login fieldset {
+	padding: 1px; width: 100%; text-align: right;
+}
+.loginLinks {
+	text-align: right; font-size: 0.8em; _padding: 0;
+}
+.forgotPasswordLink {
+	text-align: right; font-size: 0.8em; _padding: 0;
+}
+.forgotPasswordLink {
+	margin-bottom: 3px;
+}
+.loginField {
+	padding: 1px; width: 100px;
+}
+.loginHorizontal fieldset input.loginField {
+	border: 1px solid rgb(204, 204, 204);
+}
+.loginCompact fieldset input.loginField {
+	border: 1px solid rgb(204, 204, 204);
+}
+.loginHorizontal fieldset {
+	padding: 13px 2px 10px; float: left; display: block;
+}
+.loginHorizontal label {
+	bottom: 2px; position: relative;
+}
+.headerCell .loginHorizontal {
+	width: 100%; font-size: 0.9em; float: left;
+}
+.headerCell .loginHorizontal td {
+	padding: 14px 5px; vertical-align: middle;
+}
+.loginCompact label {
+	font-size: 0.9em;
+}
+.loginCompact fieldset {
+	margin: 5px 5px 5px 0px; padding: 0px; text-align: left;
+}
+.loginLinks {
+	margin: 2px 0px 0px; padding: 0px; list-style-type: none; _padding: 5px 0 0 0;
+}
+.loginWord {
+	display: none;
+}
+.loginCompact ul.loginLinks {
+	margin-left: 0px; list-style-type: none;
+}
+.loginCompact .loginLinks {
+	padding-top: 0px; margin-top: 0px; margin-left: 0px; display: block;
+}
+.forgotPassForm td {
+	padding: 2px 0px;
+}
+.contactUsForm td {
+	padding: 2px 0px;
+}
+.forgotPassHeader .headerBullet {
+	margin-top: -5px; margin-right: 3px;
+}
+.forgotPassForm select {
+	width: 155px; margin-left: 5px; _width: 154px;
+}
+#ctl00_mainContent_ContactUsPublic_maction {
+	margin: 0px 5px;
+}
+.contactUsForm td {
+	padding: 2px;
+}
+.forgotPassForm td {
+	padding: 2px;
+}
+.directionsForm td {
+	padding: 2px;
+}
+.login input[type=text] {
+	border: 1px solid rgb(204, 204, 204); margin-left: 5px;
+}
+.login input[type=password] {
+	border: 1px solid rgb(204, 204, 204); margin-left: 5px;
+}
+.login table td {
+	padding: 1px;
+}
+.login label {
+	text-transform: capitalize; font-size: 0.9em; _margin-right: 5px;
+}
+.login td span {
+	white-space: nowrap;
+}
+.loginLinks {
+	white-space: nowrap;
+}
+.loginButton {
+	margin-top: -1px; _margin-top: 1px;
+}
+.loginButton {
+	padding: 0px 5px; border: 2px solid rgb(255, 255, 255); width: 50px; height: 20px; text-transform: uppercase; font-family: Arial, Sans-Serif; font-size: 0.8em; font-weight: bold; position: relative; cursor: pointer;
+}
+.goButton {
+	padding: 0px 5px; border: 2px solid rgb(255, 255, 255); width: 50px; height: 20px; text-transform: uppercase; font-family: Arial, Sans-Serif; font-size: 0.8em; font-weight: bold; position: relative; cursor: pointer;
+}
+.submitButton {
+	width: 75px;
+}
+h1 {
+	font-size: 1.33em;
+}
+h2 {
+	font-size: 1.16em;
+}
+h3 {
+	font-size: 1em;
+}
+.plainBox h1 {
+	
+}
+h1.hr {
+	margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h2.hr {
+	margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h2.hr {
+	padding-bottom: 0px;
+}
+h2.forgotPassHeader {
+	margin-top: 15px; margin-bottom: 10px;
+}
+.box-header table {
+	display: inline-block;
+}
+.icAttachment {
+	margin-right: 5px;
+}
+.icUrgent {
+	margin-right: 5px;
+}
+.pageTitleContainer {
+	padding-bottom: 5px; _height: 1%;
+}
+.pageTitle {
+	position: relative; z-index: 2;
+}
+h1 img {
+	padding-left: 5px;
+}
+h2 img {
+	padding-left: 5px;
+}
+.goButton {
+	width: auto; text-transform: uppercase;
+}
+.formButton {
+	padding-top: 5px; display: inline-block;
+}
+.siteAdminDirectory {
+	margin-top: 10px; margin-left: 10px;
+}
+.siteAdminItem {
+	margin-bottom: 20px;
+}
+.siteAdminImage {
+	margin: 3px 10px 10px 0px; padding: 3px; border: 1px solid rgb(204, 204, 204); float: left;
+}
+.siteAdminImageAndDescription {
+	margin: 1.5em 22px;
+}
+.siteAdminBullet {
+	width: 16px; height: 16px; margin-right: 5px; float: left; display: block; background-image: url("/themes/global/images/icBullets16.gif"); background-repeat: no-repeat;
+}
+.siteAdminDirectory h2 {
+	padding-left: 0px; margin-left: 0px;
+}
+.siteAdminPosition {
+	font-size: 0.83em; font-style: italic; font-weight: normal; display: inline;
+}
+.icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-pc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-mpc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-sc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-msc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-ac .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.subItem .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; font-size: 0.7em; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.memberSearchForm label {
+	float: left;
+}
+.teacherSearchForm label {
+	float: left;
+}
+.adminSearchForm label {
+	float: left;
+}
+.teacherSearchForm {
+	
+}
+.teacherSearchForm label {
+	width: 120px; text-align: right; padding-top: 3px; padding-right: 5px;
+}
+.memberSearchForm label {
+	width: 120px; text-align: right; padding-top: 3px; padding-right: 5px;
+}
+.adminSearchForm label {
+	width: 120px; text-align: right; padding-top: 3px; padding-right: 5px;
+}
+.memberSearchForm fieldset {
+	margin: 0px; padding: 0px 0px 5px;
+}
+.teacherSearchForm fieldset {
+	margin: 0px; padding: 0px 0px 5px;
+}
+.teacherSearchForm select {
+	margin: 0px 5px;
+}
+.adminSearchForm {
+	padding-left: 0px;
+}
+.adminSearchForm label {
+	padding-right: 10px;
+}
+.summaryList {
+	margin: 0px 0px 0px 4px; padding: 0px;
+}
+.summaryList ul {
+	margin: 5px 15px; padding: 5px 15px;
+}
+.summaryList ol {
+	margin: 5px 17px; padding: 5px 17px;
+}
+.summaryListItem {
+	margin: 10px 0px; overflow: hidden; clear: both;
+}
+.summaryListBullet {
+	background: url("/themes/global/images/icBullets.png") no-repeat 0px -75px; padding: 0px; width: 10px; height: 10px; overflow: hidden; float: left; display: block;
+}
+.summaryListBullet2 {
+	display: none;
+}
+.groupDirItem {
+	margin-bottom: 10px; margin-left: 12px;
+}
+.summaryListItemBox {
+	overflow: hidden; display: block; _margin-left: 10px;
+}
+.groupDir table td {
+	width: auto !important;
+}
+.mainCol ul.quickList {
+	margin: 0px; padding: 10px 0px 0px; list-style-type: none;
+}
+.siteListingLinks .quickList {
+	margin: 0px; padding: 10px 0px 0px; list-style-type: none;
+}
+.mainCol table.userProfileCallOuts ul.quickList {
+	list-style-type: disc;
+}
+.mainCol ul.quickList li {
+	margin: 0px; padding: 0px 0px 5px; list-style-type: none;
+}
+.siteListingLinks ul.quickList li {
+	padding-bottom: 10px;
+}
+.siteListingLinks ul.quickList {
+	padding: 0px; margin-left: 5px;
+}
+.siteListingLinks .plainBox .contentBox {
+	padding: 10px 0px 0px 10px;
+}
+.categoryName {
+	bottom: 8px; font-weight: bold; position: relative;
+}
+.siteListingLinks ul.categoryList.quickList {
+	padding-left: 10px;
+}
+.siteListingLinks ul.categoryList.quickList li img {
+	padding: 0px 3px 0px 0px;
+}
+.siteListingLinks img {
+	_background-repeat: no-repeat;
+}
+.mainCol ul.quickList li img.nameIcon {
+	margin: 0px 5px 0px 0px; padding: 0px; vertical-align: middle; float: none;
+}
+.siteListingLinks .baseBox_headInner {
+	_padding-top: 0;
+}
+.siteListingLinks ul.quickList {
+	margin: 0px 0px 0px 5px; padding: 0px;
+}
+.siteListShowAll {
+	margin: 15px 0px 0px 15px; text-align: left; font-size: 1em; font-weight: bold;
+}
+.siteListAdminHeader {
+	padding-bottom: 5px; white-space: nowrap;
+}
+.siteListAdminHeader h1 {
+	left: -10px; top: 5px; margin-bottom: 10px; position: relative;
+}
+.siteListAdminHeader .headerBullet {
+	bottom: 5px; float: left; position: relative;
+}
+.breadCrumbs {
+	margin: 10px 10px 10px 0px; font-size: 0.9em; _height: 1%;
+}
+.rootBreadCrumb {
+	padding-left: 0px;
+}
+.rootBreadCrumb {
+	color: rgb(51, 51, 51);
+}
+.parentBreadCrumb {
+	color: rgb(51, 51, 51);
+}
+.rootBreadCrumb {
+	font-weight: bold;
+}
+.parentBreadCrumb {
+	font-weight: bold;
+}
+.currentBreadCrumb {
+	font-weight: bold;
+}
+.breadCrumbs a.rootBreadCrumb {
+	text-decoration: none;
+}
+.breadCrumbs a.parentBreadCrumb {
+	text-decoration: none;
+}
+.breadCrumbs a.rootBreadCrumb:hover {
+	text-decoration: underline;
+}
+.breadCrumbs a.parentBreadCrumb:hover {
+	text-decoration: underline;
+}
+span.breadCrumbSeperator {
+	background: url("/themes/global/images/icBullets.png") no-repeat 3px -155px; width: 10px; margin-left: 4px; display: inline-block;
+}
+.calButtonLeft {
+	float: left;
+}
+.calButtonRight {
+	margin-right: 10px; float: right;
+}
+span.calView {
+	bottom: 5px; text-transform: capitalize; font-size: 0.8em; position: relative;
+}
+.calViewBtn {
+	margin-left: 5px;
+}
+.calIconSeparate {
+	margin: 0px 15px;
+}
+.calButtonLeft {
+	top: 0.85em; position: relative;
+}
+.calButtonRight {
+	top: 1em; position: relative;
+}
+input.calCustomize {
+	padding: 2px 0.3em; width: 14.5em; text-align: left; color: rgb(68, 68, 68); font-family: Tahoma; font-size: 0.9em; font-weight: bold; _width: 15em;
+}
+html > body input.calCustomize {
+	position: relative;
+}
+.calUI {
+	background-position: top; padding: 8px 0px 5px; text-align: center; background-image: url("/themes/global/images/dotted.gif"); background-repeat: repeat-x; background-color: rgb(244, 244, 244);
+}
+.calPrevMonth {
+	padding-right: 10px;
+}
+.calNextMonth {
+	padding-left: 10px;
+}
+.eventTypesFilter {
+	padding-top: 10px;
+}
+.calGridEvent .imageAndTitle img {
+	overflow: hidden; margin-top: -2px;
+}
+.calendarMonthlyView {
+	bottom: 20px; position: relative;
+}
+.calMonthWrapper {
+	position: relative; z-index: 1;
+}
+.monthlyCalendar {
+	width: 100%;
+}
+.monthlyCalendar table {
+	width: 100%;
+}
+.monthlyCalendarMonth {
+	
+}
+.monthlyCalendarDayHeader {
+	padding: 14px 5px; text-align: center !important; color: rgb(152, 152, 152); text-transform: uppercase; font-family: Trebuchet MS; font-weight: bold; background-color: rgb(227, 227, 227);
+}
+.monthlyCalendarDay {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); height: 100px; vertical-align: top;
+}
+.monthlyCalendarOtherMonthDay {
+	border: 1px solid rgb(204, 204, 204); height: 100px; vertical-align: top; background-color: rgb(241, 241, 241);
+}
+.monthlyCalendarSelectedDay {
+	border: 1px solid rgb(204, 204, 204); height: 100px; vertical-align: top; background-color: rgb(217, 232, 240);
+}
+.monthlyCalendarNumber {
+	text-align: right; color: rgb(102, 102, 102); font-family: Trebuchet MS; font-size: 0.9em;
+}
+.monthlyCalendarOtherMonthDay .monthlyCalendarNumber {
+	color: rgb(153, 153, 153);
+}
+.eventFilter {
+	padding: 2px; border: 1px solid rgb(153, 153, 153); width: 175px; background-color: rgb(217, 232, 240);
+}
+.searchPanel {
+	border: 1px solid rgb(153, 153, 153); width: 200px; font-size: 11px; white-space: normal !important; z-index: 1; background-color: rgb(217, 232, 240);
+}
+.searchPanelHeader {
+	padding: 2px; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(102, 0, 0);
+}
+.calGridEvent {
+	padding-top: 5px; padding-bottom: 10px; clear: both; margin-bottom: 5px;
+}
+div.calTitle {
+	font-weight: bold;
+}
+div.calTime {
+	background-position: 0px -565px; text-transform: uppercase; line-height: normal; padding-left: 5px; font-size: 0.8em; background-image: url("/themes/global/images/icBullets.gif"); background-repeat: no-repeat;
+}
+div.calDescription {
+	line-height: normal; font-size: 0.9em;
+}
+.calendarEvents {
+	overflow: hidden; clear: left; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: block;
+}
+td.listViewList {
+	padding-right: 2px;
+}
+.listViewHeader {
+	width: 100%; font-weight: bold; margin-top: 5px; -moz-border-radius-topleft: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px;
+}
+.calListViewNoResults {
+	text-align: center; padding-top: 20px; font-weight: bold;
+}
+.listViewHeader span {
+	margin-top: 2px;
+}
+.listViewHeader input {
+	margin: 5px;
+}
+.listViewHeader td input {
+	margin-top: 3px;
+}
+.calListDayContainer {
+	width: 99.7%; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; float: left; position: relative;
+}
+.calendarListDay {
+	float: left;
+}
+.calendarListDay .monthName {
+	padding: 15px; width: 6.5em; text-align: center; float: left; display: block;
+}
+.calendarListDay .dayName {
+	padding: 15px; width: 6.5em; text-align: center; float: left; display: block;
+}
+.calendarListDay .dayName {
+	color: rgb(170, 170, 170); text-transform: uppercase; padding-right: 1em; font-size: 0.83em; font-weight: bold;
+}
+.calendarListDay .monthName {
+	width: 5em; font-size: 0.91em; font-weight: bold;
+}
+.calendarListEvents {
+	padding: 0px 10px 15px 0px;
+}
+.calendarListEvents .calTitle {
+	margin-top: 15px;
+}
+td.calListUI {
+	background-position: top; padding: 6px 15px; background-image: url("/themes/global/images/dotted.gif"); background-repeat: repeat-x; background-color: rgb(246, 246, 246);
+}
+.calListViewButton {
+	border: 0px currentColor; top: 4px; width: 54px; height: 16px; font-family: Trebuchet MS; font-size: 0.83em; position: relative; cursor: pointer; background-image: url("/themes/global/images/bgCalListViewButton.png"); background-repeat: no-repeat;
+}
+.selected.calListViewButton {
+	background-position: 0px -16px;
+}
+.calListUI .calViewBtn {
+	padding-right: 0px; padding-left: 5px; margin-right: 0px; position: relative;
+}
+table.wrapperTable td .CalNotActiveTbl {
+	text-align: center;
+}
+.listViewListSideBar .referenceCalendar {
+	bottom: 30px; margin-bottom: -30px; position: relative;
+}
+.referenceCalendar table table table table table td {
+	padding: 6px; text-align: center; font-weight: bold;
+}
+.referenceCalendarOtherMonthDay {
+	color: rgb(238, 238, 238);
+}
+.calendarCustomize .baseBox h1 {
+	padding-left: 5px; font-size: 1em; font-weight: bold;
+}
+.calendarCustomize hr {
+	margin: 5px 0px; padding: 0px;
+}
+.calendarCustomize .contentBox {
+	padding: 0px 5px 10px;
+}
+.calendarCustomize center input {
+	margin: 15px 0px 5px;
+}
+.calEventType {
+	width: auto; text-align: left; text-transform: uppercase; padding-left: 3px; font-size: 0.65em; font-weight: bold;
+}
+.calSearchResults {
+	margin: 0px 5px;
+}
+.gridFooter {
+	width: 100%;
+}
+.pagerText {
+	font-size: 0.91em; font-weight: normal;
+}
+#weatherVert {
+	margin: 0px; padding: 0px; clear: both;
+}
+#weatherHoriz {
+	margin: 0px; padding: 0px; clear: both;
+}
+.weatherContainer {
+	margin: 0px; padding: 0px; clear: both;
+}
+td.weatherDay {
+	width: 50px;
+}
+.weatherOutlook {
+	padding-right: 15px; padding-bottom: 15px;
+}
+.weatherDay span {
+	display: block;
+}
+.weatherHigh {
+	font-weight: bold;
+}
+.weatherLow {
+	font-weight: bold;
+}
+.weatherHigh {
+	color: rgb(204, 0, 0);
+}
+.weatherLow {
+	color: rgb(0, 102, 255);
+}
+.weatherDate {
+	white-space: nowrap;
+}
+.bold {
+	font-weight: bold;
+}
+.GrayItlTxt {
+	color: rgb(153, 153, 153); padding-left: 5px; font-size: 0.91em; font-style: italic;
+}
+.italics {
+	font-style: italic;
+}
+.groupProfile_SiteName {
+	padding-top: 5px; padding-bottom: 8px; font-size: 0.95em;
+}
+*:first-child + html .plainBox h1 {
+	position: relative;
+}
+.plainBox h2 {
+	position: relative;
+}
+.box-footer a {
+	padding: 10px 0px; display: inline-block;
+}
+.box-footer div {
+	padding: 10px 0px; display: inline-block;
+}
+.box-footer p {
+	padding: 10px 0px; display: inline-block;
+}
+h1 {
+	_height: 1%;
+}
+h2 {
+	_height: 1%;
+}
+td {
+	vertical-align: top;
+}
+.mainCol ul {
+	margin: 0px 35px; padding: 10px 0px; overflow: hidden; list-style-position: inside; -ms-zoom: 1;
+}
+.mainCol ol {
+	margin: 0px 35px; padding: 10px 0px; overflow: hidden; list-style-position: inside; -ms-zoom: 1;
+}
+.mainCol ul li {
+	padding: 0px;
+}
+.mainCol ol li {
+	padding: 0px;
+}
+.mainCol ul {
+	list-style-type: disc;
+}
+.mainCol ol {
+	list-style-type: decimal;
+}
+.contentBox img {
+	margin: 5px 5px 0px; padding: 0px; position: relative;
+}
+.box-body img {
+	margin: 5px 5px 0px; padding: 0px; position: relative;
+}
+.resourceBody img {
+	margin: 5px 5px 0px;
+}
+.contentBox marquee img {
+	position: static;
+}
+.backLink {
+	margin-top: 30px;
+}
+span {
+	_overflow: hidden;
+}
+.backLinkBullet {
+	_overflow: hidden;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear-both {
+	clear: both;
+}
+.width-50p {
+	width: 50%;
+}
+.width-auto {
+	width: auto;
+}
+img.floatLeft {
+	margin-right: 10px; float: left;
+}
+img.floatRight {
+	margin-left: 10px; float: right;
+}
+.small {
+	font-size: 0.83em;
+}
+.large {
+	font-size: 1.16em;
+}
+.soft {
+	color: rgb(211, 211, 211);
+}
+.hide {
+	display: none;
+}
+.invisible {
+	visibility: hidden;
+}
+.noUnderline {
+	text-decoration: none;
+}
+.no-url {
+	text-decoration: none;
+}
+p.last {
+	margin-bottom: 0px;
+}
+.addBtmMargin15 {
+	margin-bottom: 15px;
+}
+.addBtmMargin10 {
+	margin-bottom: 10px;
+}
+.addBtmMargin5 {
+	margin-bottom: 5px;
+}
+.addTopMargin15 {
+	margin-top: 15px;
+}
+.addTopMargin10 {
+	margin-top: 10px;
+}
+.addTopMargin5 {
+	margin-top: 5px;
+}
+.addLeftMargin10 {
+	margin-left: 10px;
+}
+.searchCalendarPublic td {
+	padding: 15px 0px 0px 5px;
+}
+.googleSearchContainer {
+	margin: 5px 0px 5px 5px;
+}
+.searchResultsMainTable .helpTips {
+	margin: 15px 0px 0px !important; padding: 0px 5px;
+}
+.googleSearch label {
+	display: none;
+}
+.googleSearch input[type='text'] {
+	width: 70%; margin-bottom: 5px; margin-left: 2px; float: left; max-width: 250px; _width: auto;
+}
+.googleSearch input[type='button'] {
+	padding: 2px; bottom: 2px; margin-left: 2px; float: left; position: relative;
+}
+.transBox {
+	border: 1px solid rgb(128, 128, 128); margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.transBoxDrop {
+	border: 1px solid rgb(128, 128, 128); margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.transBoxDropContent {
+	padding: 0px !important;
+}
+.transBox td {
+	padding: 0px;
+}
+.transBoxItem div {
+	padding: 4px; text-align: left; background-color: rgb(255, 255, 255);
+}
+.transBoxItemHover div {
+	padding: 4px; text-align: left; background-color: rgb(255, 255, 255);
+}
+.transBoxItemHover div {
+	cursor: pointer; background-color: rgb(128, 128, 128);
+}
+.transBoxItem div img {
+	vertical-align: middle;
+}
+.transBoxItem div span {
+	padding-left: 20px; font-size: 11px; background-image: url("/images/flags.gif"); background-repeat: no-repeat;
+}
+.transBoxItemHover div span {
+	padding-left: 20px; font-size: 11px; background-image: url("/images/flags.gif"); background-repeat: no-repeat;
+}
+.transBoxItem div span {
+	color: rgb(51, 51, 51) !important;
+}
+.transBoxItemHover div span {
+	color: rgb(255, 255, 255) !important;
+}
+.flag_af {
+	background-position: 0px -520px;
+}
+.flag_sw {
+	background-position: 0px -456px;
+}
+.flag_sq {
+	background-position: 0px -533px;
+}
+.flag_be {
+	background-position: 0px -547px;
+}
+.flag_et {
+	background-position: 0px -562px;
+}
+.flag_gl {
+	background-position: 0px -574px;
+}
+.flag_hu {
+	background-position: 0px -588px;
+}
+.flag_is {
+	background-position: 0px -601px;
+}
+.flag_ga {
+	background-position: 0px -617px;
+}
+.flag_mk {
+	background-position: 0px -630px;
+}
+.flag_ms {
+	background-position: 0px -643px;
+}
+.flag_mt {
+	background-position: 0px -658px;
+}
+.flag_fa {
+	background-position: 0px -672px;
+}
+.flag_sw {
+	background-position: 0px -455px;
+}
+.flag_th {
+	background-position: 0px -468px;
+}
+.flag_tr {
+	background-position: 0px -481px;
+}
+.flag_cy {
+	background-position: 0px -494px;
+}
+.flag_yi {
+	background-position: 0px -506px;
+}
+.flag_pl {
+	
+}
+.flag_hr {
+	background-position: 0px -13px;
+}
+.flag_fi {
+	background-position: 0px -26px;
+}
+.flag_lt {
+	background-position: 0px -39px;
+}
+.flag_ja {
+	background-position: 0px -52px;
+}
+.flag_iw {
+	background-position: 0px -65px;
+}
+.flag_pt-PT {
+	background-position: 0px -78px;
+}
+.flag_no {
+	background-position: 0px -91px;
+}
+.flag_nl {
+	background-position: 0px -104px;
+}
+.flag_vi {
+	background-position: 0px -117px;
+}
+.flag_hi {
+	background-position: 0px -130px;
+}
+.flag_sv {
+	background-position: 0px -143px;
+}
+.flag_fr {
+	background-position: 0px -156px;
+}
+.flag_zh-CN {
+	background-position: 0px -169px;
+}
+.flag_ca {
+	background-position: 0px -182px;
+}
+.flag_id {
+	background-position: 0px -195px;
+}
+.flag_ar {
+	background-position: 0px -208px;
+}
+.flag_lv {
+	background-position: 0px -221px;
+}
+.flag_da {
+	background-position: 0px -234px;
+}
+.flag_en {
+	background-position: 0px -247px;
+}
+.flag_blank {
+	background-position: 0px -247px;
+}
+.flag_de {
+	background-position: 0px -260px;
+}
+.flag_el {
+	background-position: 0px -273px;
+}
+.flag_ko {
+	background-position: 0px -286px;
+}
+.flag_cs {
+	background-position: 0px -299px;
+}
+.flag_uk {
+	background-position: 0px -312px;
+}
+.flag_tl {
+	background-position: 0px -325px;
+}
+.flag_es {
+	background-position: 0px -338px;
+}
+.flag_sk {
+	background-position: 0px -351px;
+}
+.flag_ro {
+	background-position: 0px -364px;
+}
+.flag_sl {
+	background-position: 0px -377px;
+}
+.flag_sr {
+	background-position: 0px -390px;
+}
+.flag_zh-TW {
+	background-position: 0px -684px;
+}
+.flag_it {
+	background-position: 0px -416px;
+}
+.flag_bg {
+	background-position: 0px -429px;
+}
+.flag_ru {
+	background-position: 0px -442px;
+}
+.flag_ht {
+	background-position: 0px -701px;
+}
+html > body .box.plainBox {
+	margin: 10px 5px;
+}
+.plainBox {
+	background-color: rgb(255, 255, 255);
+}
+.mainCol .box-nc {
+	background-color: rgb(255, 255, 255);
+}
+.loginContainer .box-nc {
+	background-color: transparent;
+}
+.baseBox {
+	background-position: right bottom; width: auto; overflow: hidden; padding-right: 15px; -ms-zoom: 1; _width: 100%; _padding-right: 0;
+}
+.borderBox {
+	background-position: right bottom; width: auto; overflow: hidden; padding-right: 15px; -ms-zoom: 1; _width: 100%; _padding-right: 0;
+}
+.borderBox2 {
+	background-position: right bottom; width: auto; overflow: hidden; padding-right: 15px; -ms-zoom: 1; _width: 100%; _padding-right: 0;
+}
+.baseBox2 {
+	background-position: right bottom; width: auto; overflow: hidden; padding-right: 15px; -ms-zoom: 1; _width: 100%; _padding-right: 0;
+}
+html > body .box.borderBox_head {
+	height: auto !important;
+}
+.box.borderBox_headInner {
+	height: auto !important;
+}
+.baseBox_head {
+	background-position: right top; padding-right: 20px; margin-right: -15px; _margin-right: 0px;
+}
+.borderBox_head {
+	background-position: right top; padding-right: 20px; margin-right: -15px; _margin-right: 0px;
+}
+.borderBox2_head {
+	background-position: right top; padding-right: 20px; margin-right: -15px; _margin-right: 0px;
+}
+.baseBox2_head {
+	background-position: right top; padding-right: 20px; margin-right: -15px; _margin-right: 0px;
+}
+.baseBox_headInner {
+	margin: 0px; padding: 20px 0px 0px 20px; border: 0px currentColor; -ms-zoom: 1; _height: auto;
+}
+.borderBox_headInner {
+	margin: 0px; padding: 20px 0px 0px 20px; border: 0px currentColor; -ms-zoom: 1; _height: auto;
+}
+.borderBox2_headInner {
+	margin: 0px; padding: 20px 0px 0px 20px; border: 0px currentColor; -ms-zoom: 1; _height: auto;
+}
+.baseBox2_headInner {
+	margin: 0px; padding: 20px 0px 0px 20px; border: 0px currentColor; -ms-zoom: 1; _height: auto;
+}
+.baseBox_body {
+	background-position: left bottom; padding: 0px 0px 15px 15px; margin-right: 0px; _margin-right: 15px;
+}
+.borderBox_body {
+	background-position: left bottom; padding: 0px 0px 15px 15px; margin-right: 0px; _margin-right: 15px;
+}
+.borderBox2_body {
+	background-position: left bottom; padding: 0px 0px 15px 15px; margin-right: 0px; _margin-right: 15px;
+}
+.baseBox2_body {
+	background-position: left bottom; padding: 0px 0px 15px 15px; margin-right: 0px; _margin-right: 15px;
+}
+.contentBox {
+	margin: 0px; padding: 0px 5px;
+}
+.box h2 {
+	padding-bottom: 5px; padding-left: 5px;
+}
+.contentBox p {
+	margin: 0px; padding: 0px;
+}
+.rssFeed {
+	overflow: hidden; margin-bottom: 10px; _clear: both;
+}
+.rssFAQ {
+	margin: 20px 0px;
+}
+.rssFAQ .headerBullet {
+	margin-right: 2px; float: left;
+}
+.rssFAQ p {
+	margin: 5px 0px; padding: 0px 0px 10px;
+}
+.rssFAQ h1 {
+	padding-top: 2px;
+}
+hr.hrBlock {
+	margin: 0px; display: none;
+}
+hr {
+	margin: 5px 0px; clear: both;
+}
+html > body hr.hrBlock {
+	display: none; visibility: hidden;
+}
+.ui-dialog {
+	border: 1px solid rgb(81, 80, 80); z-index: 3000; background-color: rgb(241, 241, 241);
+}
+html > body .ui-dialog-titlebar {
+	background-image: url("/images/ThemeEditor/ui_bg_highlight_1x30.png");
+}
+.ui-dialog-titlebar {
+	
+}
+.ui-dialog-titlebar {
+	background-position: 50% 50%; padding: 0px 12px; height: 28px; color: rgb(255, 255, 255); line-height: 28px; font-size: 13px; font-weight: bold; position: relative; cursor: move; background-repeat: repeat-x; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+.ui-dialog-titlebar {
+	background-color: rgb(102, 102, 102) !important;
+}
+.ui-state-hover {
+	background-color: rgb(102, 102, 102) !important;
+}
+.ui-dialog-titlebar .ui-state-focus {
+	background-color: rgb(102, 102, 102) !important;
+}
+.ui-dialog-titlebar-close {
+	margin: -9px 0px 0px; top: 50%; right: 10px; position: absolute;
+}
+.ui-dialog-titlebar-close span {
+	margin: 4px; display: block;
+}
+.ui-icon-closethick {
+	background: url("/images/ThemeEditor/icon_close.gif") no-repeat; width: 9px; height: 9px; text-indent: -99999px; overflow: hidden; display: block;
+}
+.ui-dialog-buttonpane {
+	padding: 5px; clear: both; background-color: rgb(241, 241, 241);
+}
+.dialog-buttonpane {
+	margin: 10px 0px; text-align: center;
+}
+.footerStyle {
+	margin: 10px 0px; text-align: center;
+}
+.promptStyle {
+	overflow: hidden; background-color: rgb(241, 241, 241); -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.titleStyle {
+	background: url("/images/ThemeEditor/ui_bg_highlight_1x30.png") repeat-x 50% 50% rgb(55, 55, 55); margin: 0px; color: rgb(255, 255, 255); font-family: Tahoma; font-size: 13px;
+}
+.ui-dialog-titlebar {
+	background: url("/images/ThemeEditor/ui_bg_highlight_1x30.png") repeat-x 50% 50% rgb(55, 55, 55); margin: 0px; color: rgb(255, 255, 255); font-family: Tahoma; font-size: 13px;
+}
+.titleStyle {
+	-moz-border-radius-topleft: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px;
+}
+.ui-dialog-titlebar {
+	-moz-border-radius-topleft: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-left-radius: 0px; -webkit-border-top-right-radius: 0px;
+}
+.titleStyle {
+	padding: 10px;
+}
+.modalStyle {
+	opacity: 0; background-color: rgb(255, 255, 255);
+}
+.bodyStyle {
+	padding: 10px 15px; font-family: Tahoma; font-size: 12px;
+}
+.ui-dialog-content {
+	padding: 10px 15px; font-family: Tahoma; font-size: 12px;
+}
+.bodyStyle {
+	color: rgb(0, 0, 0);
+}
+.footerStyle {
+	text-align: center; color: rgb(255, 255, 255); padding-bottom: 10px; font-family: Tahoma; font-size: 12px;
+}
+.footerStyle input {
+	background-position: 50% 50%; margin: 0px 2px; padding: 2px 5px; border: 1px solid rgb(255, 255, 255); text-align: center; color: rgb(255, 255, 255); overflow: visible; font-size: 12px; font-weight: bold; background-image: url("/images/ThemeEditor/ui_bg_highlight_1x30.png"); background-repeat: repeat-x; background-color: rgb(105, 105, 105); -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px;
+}
+.groupProfileSection {
+	margin-top: 20px;
+}
+.CalOutlineTbl table td {
+	padding: 3px; border: 1px solid rgb(204, 204, 204);
+}
+.CalOutlineTbl table td table td {
+	border: 0px currentColor;
+}
+.itemList {
+	margin: 5px 5px 0px;
+}
+.facultyDir table td {
+	padding: 0px; border: 3px solid rgb(255, 255, 255);
+}
+.classDir table td {
+	padding: 0px; border: 3px solid rgb(255, 255, 255);
+}
+.blogDir table td {
+	padding: 0px; border: 3px solid rgb(255, 255, 255);
+}
+.userDir table td.directoryItem {
+	vertical-align: top; border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.directoryItem div {
+	margin: 5px;
+}
+.userFullName {
+	font-size: 1em; font-weight: bold;
+}
+.userPosition {
+	font-size: 0.91em; font-style: italic;
+}
+.mainCol .icEmail {
+	margin: 2px; bottom: 3px; padding-right: 0px; float: left; position: relative;
+}
+.classDirUL li {
+	list-style-type: none;
+}
+.mainCol .classDirUL {
+	margin-left: 5px;
+}
+ul.summaryList li {
+	padding: 5px 0px;
+}
+.instructorName a {
+	text-decoration: none;
+}
+.summaryImg {
+	margin: 0px 5px 5px !important;
+}
+.userProfileCallOuts .summaryListBullet {
+	background-color: transparent !important;
+}
+.userProfileType span br {
+	display: none;
+}
+.profilePanelInfo {
+	width: 300px;
+}
+.userInfoImage {
+	max-width: 90px;
+}
+.userInfoImage img {
+	padding-right: 10px;
+}
+.userInfoMid {
+	width: auto; padding-right: 10px;
+}
+.userInfoMid h3 {
+	padding-right: 10px; float: left;
+}
+.userInfoRight {
+	width: auto;
+}
+.userProfileName {
+	font-size: 1.3em;
+}
+.userProfileSiteName div {
+	padding-top: 8px;
+}
+.userProfileOfficeHours div {
+	padding-top: 8px;
+}
+.userProfileBlog div {
+	padding-top: 8px;
+}
+.userProfileRoom div {
+	padding-top: 8px;
+}
+.userProfileGradesTaught div {
+	padding-top: 8px;
+}
+.userProfileNickName div {
+	padding-top: 8px;
+}
+.userProfilePosition {
+	margin-top: 0px;
+}
+.userProfileLeftCol {
+	padding-right: 10px;
+}
+.userProfileRightCol .box.baseBox {
+	width: auto; min-width: 180px;
+}
+.userProfileRightCol .box.borderBox {
+	width: auto; min-width: 180px;
+}
+.userProfileCallOuts .quickList div {
+	padding: 2px 0px;
+}
+.userProfileCallOuts td {
+	vertical-align: top;
+}
+span.linkTitle {
+	background-position: 0px -560px; width: 175px; padding-top: 5px; padding-left: 10px; margin-left: -10px; display: block; background-image: url("/themes/global/images/icBullets.gif"); background-repeat: no-repeat;
+}
+.linkCategory {
+	cursor: pointer;
+}
+.linkTitle {
+	cursor: pointer;
+}
+.linkRow nobr {
+	white-space: normal;
+}
+.linkAddress {
+	width: 200px; text-decoration: underline; margin-bottom: 5px; display: none; cursor: pointer; -ms-word-wrap: break-word;
+}
+.classProfileAnnouncements {
+	width: 70%;
+}
+*:first-child + html .classProfileAnnouncements {
+	padding-right: 20px;
+}
+.userProfileName {
+	font-weight: bold;
+}
+.userProfileSiteName {
+	font-weight: bold;
+}
+.userProfileType {
+	font-weight: bold;
+}
+.linkCategory {
+	padding-top: 2px;
+}
+.selectedLinkCategory {
+	padding-top: 3px;
+}
+.linkRow nobr {
+	white-space: normal; -ms-word-wrap: break-word;
+}
+.searchResultsMainTable {
+	width: 99%;
+}
+.searchResultsMainTable td {
+	margin: 0px;
+}
+.txtBox {
+	margin: 0px 5px;
+}
+#ecSearchResults {
+	margin: 10px;
+}
+.eventSearchResultsHeader {
+	margin: 0px; padding: 0px; background-color: rgb(238, 238, 238);
+}
+.blogSearchResultsHeader {
+	margin: 0px; padding: 0px; background-color: rgb(238, 238, 238);
+}
+.eventSearchResultsHeader table td {
+	text-decoration: underline; cursor: pointer;
+}
+.blogSearchResultsHeader table td {
+	text-decoration: underline; cursor: pointer;
+}
+#ecSearchResults table td {
+	padding: 2px;
+}
+#ecSearchResults table th {
+	padding: 4px;
+}
+#ToolTip {
+	background: infobackground; border: 1px solid gray; left: 0px; top: 0px; visibility: hidden; position: absolute;
+}
+.ToolTipTD {
+	color: black; font-family: verdana;
+}
+.popupHeader {
+	padding: 2px 4px; color: rgb(51, 51, 51); font-family: Arial, Verdana; font-size: 11px; font-weight: bold; border-top-color: rgb(51, 51, 51); border-right-color: rgb(51, 51, 51); border-left-color: rgb(51, 51, 51); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-color: rgb(241, 241, 241);
+}
+.popupContent {
+	border: 1px solid rgb(51, 51, 51); background-color: rgb(255, 255, 255);
+}
+.popupIFrame {
+	width: 100%; height: 100%;
+}
+html > body .popupIFrame {
+	width: 100%; min-height: 250px;
+}
+.popupBody {
+	background: rgb(255, 255, 255); margin: 0px; padding: 10px; color: rgb(0, 0, 0); font-family: Arial, Verdana; font-size: 12px;
+}
+.ui-helper-clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ui-helper-clearfix {
+	display: inline-block;
+}
+* html .ui-helper-clearfix {
+	height: 1%;
+}
+.ui-helper-clearfix {
+	display: block;
+}
+.contentRegion {
+	min-width: 200px;
+}
+.gridFooter {
+	padding-top: 10px;
+}
+.gridFooter a {
+	padding: 0px 5px;
+}
+.gridHeadingCell {
+	padding: 4px; font-size: 12px; font-weight: bold; border-right-color: rgb(255, 255, 255); border-right-width: 2px; border-right-style: solid; background-color: rgb(206, 206, 206); font-color: #000000;
+}
+.gridHeadingCell td {
+	text-decoration: underline; cursor: pointer;
+}
+.gridDataCell {
+	padding: 4px; border-bottom-color: rgb(206, 206, 206); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.surveyTable td.text span {
+	padding: 2px 0px 2px 5px; display: block;
+}
+.surveyTable input[type='checkbox'] {
+	margin-right: 5px;
+}
+.surveyQuestions td.text span {
+	padding-top: 20px; display: block;
+}
+html > body .surveyQuestions .questionCell span {
+	min-width: 250px;
+}
+.story h2 {
+	padding-top: 15px; padding-left: 0px; margin-left: 5px;
+}
+.story div {
+	padding-top: 5px; padding-left: 5px;
+}
+.story ol li ul {
+	margin-left: 15px;
+}
+.resourceBody {
+	padding-top: 10px;
+}
+.classNoResults {
+	padding-top: 20px; background-color: rgb(255, 255, 255);
+}
+td.resourceListingCell {
+	
+}
+.resourcePanel {
+	min-width: 270px;
+}
+.loginCompact label {
+	
+}
+.loginCompact ul.loginLinks {
+	
+}
+.listViewSideBar {
+	width: 230px;
+}
+.groupProfileSideBar {
+	width: 230px;
+}
+.siteMessageImg {
+	padding-right: 8px;
+}
+resourceQuote {
+	padding: 8px 0px;
+}
+.resourceByLine {
+	padding: 8px 0px; font-size: 0.9em; font-style: italic;
+}
+.parentRegForm {
+	margin-top: 10px;
+}
+.parentRegForm td {
+	padding: 0px 10px;
+}
+.parentRegForm h2 {
+	margin: 0px; padding: 15px 0px 20px;
+}
+.parentRegMoreInfo {
+	left: 60px; bottom: 30px; position: relative;
+}
+.extraRegion .webPart {
+	margin: 0px 0px 40px;
+}
+.leftContentRegion {
+	overflow: hidden;
+}
+.contentBoxNoBackground {
+	overflow: hidden !important;
+}
+.contentBox {
+	overflow: hidden !important;
+}
+.siteListAdminHeader {
+	margin-top: 0px;
+}
+.siteListAdmin {
+	margin-bottom: 40px;
+}
+.announcementItem {
+	overflow: hidden; padding-top: 5px; padding-bottom: 5px;
+}
+.photoAlbumFlashViewer {
+	text-align: center;
+}
+.flashviewer .photoAlbumFlashViewer {
+	text-align: left;
+}
+.logoContainer .photoAlbumFlashViewer {
+	text-align: left;
+}
+.logoContainerTop .photoAlbumFlashViewer {
+	text-align: left;
+}
+.logoContainerBtm .photoAlbumFlashViewer {
+	text-align: left;
+}
+.logo .photoAlbumFlashViewer {
+	text-align: left;
+}
+.PApreview .wrapper {
+	width: auto !important;
+}
+.header .loginContainer .webPart {
+	float: none;
+}
+.header .loginContainer .loginHorizontal {
+	float: none;
+}
+.siteList div a {
+	font-size: 14px; font-weight: bold;
+}
+.siteListTable h1 {
+	margin-bottom: 20px;
+}
+#googleDocEmbedFrame iframe {
+	border: 1px solid rgb(238, 238, 238); width: 100%; height: 80%; min-height: 600px; box-sizing: border-box;
+}
+#ctl00_navigationZone_navigationMenu ul > li {
+	padding: 5px 10px; display: inline-block; position: relative;
+}
+#ctl00_navigationZone_navigationMenu ul > li > ul {
+	display: none; position: absolute;
+}
+.center-ic16 {
+	left: 50%; top: 50%; margin-top: -8px; margin-left: -8px; position: absolute;
+}
+.clearfix {
+	
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.hide-text {
+	text-indent: 100%; overflow: hidden; white-space: nowrap;
+}
+.input-block-level {
+	width: 100%; display: block; min-height: 28px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box;
+}
+.cf::before {
+	display: table; content: " ";
+}
+.cf::after {
+	display: table; content: " ";
+}
+.cf::after {
+	clear: both;
+}
+.cf {
+	
+}
+body {
+	-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
+}
+.plainBox h1 {
+	
+}
+.icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-pc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-mpc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-sc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-msc .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.color-ac .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.subItem .icon-new {
+	background-position: 0px -3px; padding: 0px 2px; width: 16px; height: 8px; text-indent: -9999px; margin-left: 5px; display: inline-block; background-image: url("/themes/global/images/new.png"); background-repeat: no-repeat;
+}
+.upcomingEventDay p {
+	margin: 0px; padding: 0px;
+}
+.upcomingEventDay {
+	padding-top: 15px; _height: 1%;
+}
+.upcomingEventInner {
+	background-position: right bottom; background-repeat: no-repeat;
+}
+*:first-child + html .ueContent {
+	display: inline-block;
+}
+div.ueDate {
+	font-weight: bold;
+}
+.upcomingEventsFooter .viewMonthlyCalendarLink span {
+	display: none;
+}
+#weatherVert {
+	margin: 0px; padding: 0px; clear: both;
+}
+#weatherHoriz {
+	margin: 0px; padding: 0px; clear: both;
+}
+.weatherContainer {
+	margin: 0px; padding: 0px; clear: both;
+}
+td.weatherDay {
+	width: 50px;
+}
+.weatherOutlook {
+	padding-right: 15px; padding-bottom: 15px;
+}
+.weatherDay span {
+	display: block;
+}
+.weatherHigh {
+	font-weight: bold;
+}
+.weatherLow {
+	font-weight: bold;
+}
+.weatherHigh {
+	color: rgb(204, 0, 0);
+}
+.weatherLow {
+	color: rgb(0, 102, 255);
+}
+.weatherDate {
+	white-space: nowrap;
+}
+.cc-area {
+	position: relative;
+}
+.wrapper {
+	position: relative;
+}
+.content {
+	position: relative;
+}
+.mainContent {
+	position: relative;
+}
+.custom-layout {
+	position: relative;
+}
+body {
+	font-family: arial;
+}
+.template {
+	color: rgb(51, 51, 51);
+}
+.template a {
+	color: rgb(23, 80, 51);
+}
+.background {
+	
+}
+.background a {
+	
+}
+.color-pc {
+	
+}
+.color-sc {
+	
+}
+.color-mpc {
+	
+}
+.color-msc {
+	
+}
+.color-ac {
+	
+}
+.color-pc a {
+	
+}
+.color-sc a {
+	
+}
+.color-mpc a {
+	
+}
+.color-msc a {
+	
+}
+.color-ac a {
+	
+}
+.box-pc .box {
+	
+}
+.box-sc .box {
+	
+}
+.box-mpc .box {
+	
+}
+.box-msc .box {
+	
+}
+.box-ac .box {
+	
+}
+.box-pc .box a {
+	
+}
+.box-sc .box a {
+	
+}
+.box-mpc .box a {
+	
+}
+.box-msc .box a {
+	
+}
+.box-ac .box a {
+	
+}
+.box-pc .template a {
+	color: rgb(23, 80, 51);
+}
+.box-sc .template a {
+	color: rgb(23, 80, 51);
+}
+.box-mpc .template a {
+	color: rgb(23, 80, 51);
+}
+.box-msc .template a {
+	color: rgb(23, 80, 51);
+}
+.box-ac .template a {
+	color: rgb(23, 80, 51);
+}
+.font-pc {
+	
+}
+.font-sc {
+	
+}
+.font-mpc {
+	
+}
+.font-msc {
+	
+}
+.font-ac {
+	
+}
+.font-pc a {
+	
+}
+.font-sc a {
+	
+}
+.font-mpc a {
+	
+}
+.font-msc a {
+	
+}
+.font-ac a {
+	
+}
+.prep .color-sc a {
+	
+}
+.prep .color-pc a {
+	
+}
+.prep .font-pc a {
+	
+}
+.elementary .template a {
+	
+}
+.academic .template a {
+	
+}

@@ -1,0 +1,43 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Foundation -->
+<link rel="stylesheet" href="http://corp.echalk.com/www/corporate/site/hosting/pd/common/css/normalize.css" />
+<link rel="stylesheet" href="http://corp.echalk.com/www/corporate/site/hosting/pd/common/css/foundation.mod.css" />
+
+<!-- Custom Styles -->
+<link rel="stylesheet" type="text/css"  href="http://www.bsd100.org/www/Berwyn/site/hosting/pd/css/main.css">
+
+<style type="text/css">
+.navalignleft {
+float: left !important;
+}
+</style>
+
+<!-- Google Web Font -->
+<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700' rel='stylesheet' type='text/css'>
+
+<!-- for Internet Explorer -->
+<!--[if lt IE 8]>
+<script type="text/javascript" src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+	<script src="http://www.modernizr.com/downloads/modernizr-2.0.6.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.bsd100.org/www/Berwyn/site/hosting/pd/css/ie.css" />
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script>window.html5 || document.write('<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/html5shiv.js"><\/script>')</script>
+<![endif]-->
+
+<!--[if gte IE 9]>
+	<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/custom.modernizr.js"></script>
+<![endif]-->
+
+<script>
+var pathname = window.location.pathname;
+if(pathname.indexOf("intranet") == -1 && pathname.indexOf("home") > -1) {
+window.location.replace("http://www.bsd100.org/www/Berwyn/site/hosting/pd/index.html");
+}
+</script>
+
+<meta name="google-translate-customization" content="c1646143b510e247-f3e4f5ef6f6f76e8-gcc2c67efa72a51e8-1a"></meta>
+

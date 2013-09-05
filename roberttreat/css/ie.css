@@ -1,0 +1,22 @@
+.header #nav {
+	height:46px;
+}
+.top-bar-section UL {
+	background:#006400;
+	z-index:10000000;
+	position:relative;
+}
+
+.has-dropdown > ul {
+	background:#006400 !important;
+	font-weight:bold !important;
+}
+.top-bar-section ul {
+		background: #006400 !important;
+	}
+
+@media only screen and (max-width: 940px) {
+	.top-bar-section ul {
+		background: #006400 !important;
+	}
+}

@@ -1,0 +1,6 @@
+SUPERUSER login
+
+http://www.schooldomain.com/login
+
+user: su
+password: @llegory15

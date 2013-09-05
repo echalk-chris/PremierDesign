@@ -1,0 +1,30 @@
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/jquery.js"></script>
+
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/underscore-min.js"></script>
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/mustache.js"></script>
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/moment.min.js"></script>
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/async.js"></script>
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/json2.js"></script>
+
+
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/eChalkServicesMosaicJS.js"></script>
+<script src="http://pbhs.fusdaz.org/www/PBHS/site/hosting/pd/js/eChalkRenderControlsMosaicJS.js"></script>
+<script src="http://www.roberttreatacademy.org/www/RTACS/site/hosting/pd/js/RobertTreat_eChalkRenderTemplates.js"></script>
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/jstorage.js"></script>
+
+<script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/custom.modernizr.js"></script>
+
+<script type="text/javascript" src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/foundation.min.js"></script>
+<script type="text/javascript" src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/modFoundationMenu.js"></script>  
+
+<script src="http://www.roberttreatacademy.org/www/RTACS/site/hosting/pd/js/footer.js"></script>
+
+<script>
+jq18 = jQuery.noConflict(true);
+</script>
+
+<script>
+$(document).ready(function() {
+    $('.goog-te-menu-value').slice(1).hide();
+});
+</script>

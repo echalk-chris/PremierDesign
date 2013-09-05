@@ -1,0 +1,1 @@
+node fetchAll.js >> f.txt 2>&1

@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+  <!-- redirect on iPhone -->
+  <script>
+	  var url = document.location.href;
+	  var ua = navigator.userAgent;
+	  if(ua.indexOf('iPhone') > -1 && ua.indexOf('Mozilla') > -1 && ua.indexOf('Chrome') == -1 && url.indexOf("render") == -1 && url.indexOf("index_") == -1 ) {
+		window.location = "index_mobile.html"
+	  } else if(url.indexOf("render") == -1 && url.indexOf("index_") == -1) {
+		window.location = "index_full.html"
+	  }
+  </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Alief Independent School District</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <!-- Foundation -->
+    <link rel="stylesheet" href="http://corp.echalk.com/www/corporate/site/hosting/pd/common/css/normalize.css" />
+    <link rel="stylesheet" href="http://corp.echalk.com/www/corporate/site/hosting/pd/common/css/foundation.css" />
+
+    <!-- Main Styles -->
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Google Web Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    
+        <!-- Apple Touch Icon -->
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+        <!-- Add to Home Screen -->
+        <link rel="stylesheet" href="http://corp.echalk.com/www/corporate/site/hosting/pd/common/css/add2home.css">
+
+        <script type="text/javascript">
+      var addToHomeConfig = {
+        animationIn: 'bubble',
+        animationOut: 'drop',
+        expire:2,
+        touchIcon:true,
+      };
+      
+    </script>
+
+    <script type="application/javascript" src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/add2home.js"></script>
+    <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/custom.modernizr.js"></script>
+    <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/jquery.js"></script>
+    
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/home-ie8.css">
+<![endif]-->
+
+        
+    </head>
+    <body id="home">
+        <!--[if lt IE 8]>
+            <p class="chromeframe">You are seeing this message because you are in <strong>compatability mode</strong> in Internet Explorer or using an <strong>outdated</strong> browser. To turn off compatability mode, click the <img src="img/compat.jpg" alt="Compatability Mode Icon"> icon in the address bar. To upgrade your browser, <a href="http://browsehappy.com/">click here</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Header -->
+    <div id="alief-bg">
+      <img src="img/alief_photo_bg_light.jpg" alt=" ">
+    </div>
+    
+    <div id="home-container">
+      <!-- Top Green Bar -->
+      <header class="header">
+        <div id="mobile-logo"></div>
+        <h2>Preparing Students for Tomorrow &mdash; Caring for Them Today.</h2>
+        <ul id="quick-links">
+          <li class="qlink why"><a href="http://www.aliefisd.net/site_res_view_template.aspx?id=928517d4-b16b-438f-8972-9c9624fc4935"><i></i>Why Alief?</a></li>
+          <li class="qlink home"><a href='/home'><i></i>Home</a></li>
+          <li class="qlink login"><a href="https://sso.echalk.net/sso/default.aspx?siteId=f56fa45d-430f-43ce-82d1-5032d653a879&Refsiteurl=www.aliefisd.net&whr=urn:federation:aliefisd"><i></i>Login</a></li>
+          <li class="qlink help"><a href='/help'><i></i>Help</a></li>
+          <li class="qlink search"><a href='/search'><i></i>Search</a></li>
+
+          <!-- mobile remove -->
+          <li class="qlink trans"><div id="google_translate_element"></div>
+          <script type="text/javascript">
+          function googleTranslateElementInit() {
+			if(url.indexOf("render") == -1) {
+				new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+          }
+          </script><script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <!-- end mobile remove -->
+
+          </li>
+          <li class="qlink twit"><a href="http://twitter.com/AliefISD" target="_blank"><i></i>Twitter</a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </header>
+      <div id="sub-header">
+        <!-- Logo Area -->
+        <div id="sub-header-left">
+          <div id="logo">
+            <h1>Alief Independent School District</h1>
+          </div>
+        </div>
+        <!-- Slideshow Area -->
+        <div id="sub-header-right">
+          <div id="home-slideshow">
+            <ul id="slide" data-orbit data-options="timer_speed:6000; bullets:true; animation_speed: 500;">
+
+            </ul>
+            <a class="slide-prev" href="javascript:void(0)"></a>
+            <a class="slide-next" href="javascript:void(0)"></a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <!-- Navigation -->
+      <div id="nav">
+        <nav class="top-bar">
+          <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
+              <h1><a href="#">&nbsp;</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+          <!-- Nav Section -->
+            <ul class="left">
+                        </ul>
+          </section>
+        </nav>
+      </div>
+      <!-- 3 Columns -->
+      <div id="main">
+        <div id="col-1">
+          <!-- Additional Links -->
+          <div id="more-links">
+            <ul>
+              <li><a href="http://www.aliefisd.net/group_profile_view.aspx?id=a97fb1d0-1af3-4bf0-a738-0738965f17e0">New Student Registration</a></li>
+              <li><a href="http://www.aliefisd.net/www/Alief/site/Hosting/Districtwide%20Information%20Files/DistrictCalendar2013-2014.pdf" target="_blank">2013-2014 Calendar</a></li>
+              <li><a href="http://www.aliefisd.net/www/Alief/site/hosting/Communications/Communicator/AISDCommunicator(August2013Final).pdf" target="_blank">Alief Communicator Newsletter</a></li>
+              <li><a href="http://www.aliefisd.net/res_view_folder.aspx?id=3e3dde57-f900-48fc-971b-46d6375d2f38&userGroupId=67d7d427-0348-49e2-815f-afd143049e62&userGroupType=G">Employment Opportunities</a></li>
+              <li><a href="http://www.aliefisd.net/group_calendar.aspx?id=c9214e67-4901-4d2e-b0be-284033b84bfa">Athletic Calendar</a></li>
+            </ul>
+          </div>
+          <!-- Calendar -->
+          <h3 id="calendar-header">District Calendar</h3>
+          <div id="events-list">
+
+          </div>
+          <a class="viewlink" href='/calendars/District-Calendar/month'>View All Events &gt;</a>
+        </div>
+        <div id="col-2">
+          <!-- Announcements -->
+          <div id="announcement-list">
+          </div>
+        </div>
+        <div id="col-3">
+          <!-- Photo Area -->
+          <img src="http://www.aliefisd.net/www/Alief/site/hosting/featuredphoto/home_featuredphoto.jpg" alt=" " id="home-static">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <div id="echalk-logo"></div>
+        <p id="address">Alief Independent School District <span class="foot-sep">|</span> 4250 Cook Road <span class="foot-sep">|</span> Houston, TX 77072 <span class="foot-sep">|</span> 281-498-8110 <span class="foot-sep">|</span> wwww.aliefisd.net</p>
+        <p id="disclaimer">Alief Independent School District is committed to making its Website accessible to all users. If you use assistive technology and are having trouble accessing information on this website, please contact Web Specialist Tracy Lau at 281-988-3710 or tracy.lau@aliefisd.net, and we will assist you. Alief ISD does not discriminate on the basis of race, color, national origin, handicap or sex. The career and technology education program operates in accordance with the provisions of Titles VI, VII, and IX and Section 504 of the Department of Health, Education and Welfare. Alief ISD program admission procedures, facilities and graduation requirements are designed to eliminate discrimination. Alief ISD will take steps to ensure that lack of English language skills will not be a barrier to admission and participation in all programs, including career and technology education. For information about your rights or grievance procedures, write the Assistant Superintendent of Human Resources at P.O. Box 68, Alief, TX 77411, or call 281-498-8110, ext. 3870.</p>
+      </footer>
+      <div class="clearfix"></div>
+    </div>
+
+      <div id="modal"></div>  
+
+         <script>
+			     if(url.indexOf("render") == -1) {
+              document.write('<script src=' +
+              ('__proto__' in {} ?  'http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/zepto' : 'http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/vendor/jquery'  ) +
+              '.js><\/script>')
+            }
+        </script>  
+
+        <script>
+            jq18 = jQuery;
+        </script>
+         
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/foundation.min.js"></script>
+    <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/modFoundationMenu.js"></script>
+    <script src="js/home.js"></script>
+
+
+    <!-- mobile remove -->
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/underscore-min.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/mustache.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/moment.min.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/async.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/eChalkServicesMosaicJS.js"></script>
+        <script src="js/eChalkRenderControlsMosaicJS.js"></script>
+        <script src="js/eChalkRenderTemplates.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/json2.js"></script>
+        <script src="http://corp.echalk.com/www/corporate/site/hosting/pd/common/js/jstorage.js"></script>
+    <!-- end mobile remove -->
+
+        <script>
+
+      var siteId = 'c28c5e6f-94b9-44fc-9c59-963a1c3ced39';
+      var apiUrl = "ciwebapis.echalk.net";
+      var nodeApiUrl = "cinode.echalk.net:3000";
+
+      var slideShow = "a5db8edb-aec6-4e51-82a3-6fdae1ab2c91";
+      var annArea = "352768d2-3efd-43f5-a0c7-cde9115a1d1b";
+      var eventsCal = "c4363682-f5e5-4e57-bba5-c25bf7a294de";
+      var archive = "784fcff9-3f74-4d11-998f-02f8b2af3bd8";
+
+      $(document).ready(function() {
+
+        if(url.indexOf("render") > -1 ) {
+          
+    			var maxLevel = 1;
+    			if(url.indexOf("render=full") > -1) {
+    				maxLevel = 99;
+    			}
+    			draw(null, null, maxLevel);
+
+        } else if(url.indexOf("index_") > -1 ) {
+
+          // iPhone Safari - remove menus
+			if(url.indexOf("index_full") == -1 ) {
+				removeiPhoneMenus();
+			}
+			$("li.qlink.trans").remove();
+			$('#nav').foundation('topbar');
+			$('#events-list').foundation();
+			$(document).foundation('orbit');
+			$(document).foundation('reveal');
+
+        } else {
+          getSiteInfo(siteId, apiUrl, function(err, siteData) {
+            var siteDate = siteData.LastUpdatedTimeStamp;
+            draw(true, siteDate, 99);
+          });
+        }
+
+      });
+
+      // iPhone Safari - remove menus
+      function removeiPhoneMenus() {
+        $("li[level='3']").remove();
+        $("li[level='2']").remove();
+        $("li[level='1']").remove();
+        $("li[level='0']").attr('class','');  
+      }
+
+      function draw(fullRender, siteDate, maxLevel) {
+        getAllSiteResources(siteId, nodeApiUrl, siteDate, function(err, data) {
+            drawAllSiteResources(templates, siteId, data, ".top-bar-section>ul", maxLevel, function(err, data) { 
+              if(fullRender) {
+                $('#nav').foundation('topbar');
+                removeiPhoneMenus();
+              }
+            });
+        });
+
+        getUpcomingEventsData(siteId, eventsCal, 60, nodeApiUrl, siteDate, function(err, data) {
+          drawUpcomingEvents(templates, 1, data, 10, '#events-list', '#events-list');
+          if(fullRender) {
+             $('#events-list').foundation();
+          }
+        });
+        
+        // Slide Show
+        getAnnouncementAreaData(siteId, slideShow, nodeApiUrl, siteDate, function(err, data) {
+          drawSlideShow(templates, data,"#slide", "#modal",'static11dev.echalk.net' );
+          if(fullRender) {
+            $(document).foundation('orbit');
+          }
+        });
+
+        //Announcements
+        getAnnouncementAreaData(siteId, annArea, nodeApiUrl, siteDate, function(err, data) {
+          drawAnnouncementAreas(templates, data, "#announcement-list", "#modal");
+          if(fullRender) {
+            $(document).foundation('reveal');
+          }
+        });         
+      }
+
+        </script>   
+     
+     
+    </body>
+</html>

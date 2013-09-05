@@ -1,0 +1,14 @@
+.calUI {
+	width:350px;
+}
+
+.calUI select, .calUI a {
+	display:block;
+	float:left;
+
+}
+.calUI a {
+	position:relative;
+	top:15px;
+	margin: 0 5px;
+}
