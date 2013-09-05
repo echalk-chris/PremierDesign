@@ -136,39 +136,14 @@
 						</div>
 					<div id="home-announcements">
 						<div class="nbs-flexisel-container">
-							<ul id="" class="nbs-flexisel-ul" >
-							<li class="nbs-flexisel-item">
-								<div class="outer">
-									<div class="annbody">
-										<p style="text-align: center;">
-										<img src="img/main_pic1.jpg" alt=""><br />
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulsi recurrant? Beatus autem esse in maximarum. <a href="" class="more-btn">READ MORE ></a>  
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="nbs-flexisel-item">
-								<div class="outer">
-									<div class="annbody">
-										<p style="text-align: center;">
-										<img src="img/main_pic2.jpg" alt=""><br />
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulsi recurrant? Beatus autem esse in maximarum. <a href="" class="more-btn">READ MORE ></a>  
-										</p>
-									</div>
-								</div>
-							</li>
-							<li class="nbs-flexisel-item">
-								<div class="outer">
-									<div class="annbody">
-										<p style="text-align: center;">
-										<img src="img/main_pic3.jpg" alt=""><br />
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulsi recurrant? Beatus autem esse in maximarum. <a href="" class="more-btn">READ MORE ></a>  
-										</p>
-									</div>
-								</div>
-							</li>
-							</ul>
-						</div>
+                <div class="nbs-flexisel-inner">
+                  <ul id="announcement1" class="nbs-flexisel-ul" >              
+                  </ul>
+                  <ul id="announcement2" class="nbs-flexisel-ul" >              
+                  </ul>
+                  <ul id="announcement3" class="nbs-flexisel-ul" >              
+                  </ul>
+                </div>
 						<div class="clearfix"></div>
 					</div>
 		
@@ -237,7 +212,10 @@
               var nodeApiUrl = "customdesignapi.echalk.net";
 
               var slideShow = "e609e92c-1cbd-48b5-8a16-f67b79e197ae";
-              var annArea = "6584f0e7-d580-4e4e-a586-b8370f387e6f";
+              var annArea = "";
+              var annArea1 = "d8faf1d5-e2ac-4930-9387-9e428500e016";
+              var annArea2 = "a223d206-3cc9-47ab-95d7-e25c28670293";
+              var annArea3 = "b2f7f6d3-a635-42a0-be08-154ed5abdbc3";
               var eventsCal = "f2cbcd39-b5a6-4f5e-85b0-53fe982aef86";
               var archive = "7e08e472-d6a9-48e7-a660-d013c5c0fb5d";
 
@@ -304,6 +282,24 @@
                 //       }
                 //   });
                 // });
+
+                // Archive
+                getAnnouncementAreaData(siteId, archive, nodeApiUrl, siteDate, function(err, data) {
+                  drawArchive(templates, data, "#welcome-msg", "#modal");
+                });
+
+              // Announcement1
+                getAnnouncementAreaData(siteId, annArea1, nodeApiUrl, siteDate, function(err, data) {
+                  drawAnnouncementAreas(templates, data, "#announcement1", "#modal");
+                });
+                // Announcement2
+                getAnnouncementAreaData(siteId, annArea2, nodeApiUrl, siteDate, function(err, data) {
+                  drawAnnouncementAreas(templates, data, "#announcement2", "#modal");
+                });
+                // Announcement3
+                getAnnouncementAreaData(siteId, annArea3, nodeApiUrl, siteDate, function(err, data) {
+                  drawAnnouncementAreas(templates, data, "#announcement3", "#modal");
+                });
 
                 // Archive
                 getAnnouncementAreaData(siteId, archive, nodeApiUrl, siteDate, function(err, data) {
